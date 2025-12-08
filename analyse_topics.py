@@ -3,44 +3,43 @@ import pandas as pd
 from bertopic import BERTopic
 from sentence_transformers import SentenceTransformer
 import os
-import numpy as np # Nodig om NaN correct te vervangen
+import numpy as np
 
 INPUT_FILE = 'reviews_met_sentiment.json'
-OUTPUT_FILE = 'reviews_met_topics.json' # Het definitieve bestand!
+OUTPUT_FILE = 'reviews_met_topics.json'
 
 def analyze_topics():
     """
-    Leest het bestand met sentiment, voegt topics toe, en slaat
-    een Power BI-compatibel JSON-bestand op (zet NaN om naar null).
+    Reads the file with sentiment, adds topics, and saves
+    a Power BI-compatible JSON file.
     """
 
-    # --- 1. Laad de data met sentiment ---
-    print("Stap 1: Data met sentiment laden...")
+    # --- 1. Load data with sentiment ---
+    print("Step 1: Loading data with sentiment...")
     if not os.path.exists(INPUT_FILE):
-        print(f"FOUT: '{INPUT_FILE}' niet gevonden. Heb je 'analyseer_sentiment.py' al gedraaid?")
+        print(f"ERROR: '{INPUT_FILE}' not found. Have you run 'analyse_sentiment.py'?")
         return
         
     try:
         with open(INPUT_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
         df = pd.DataFrame.from_records(data['reviews'])
-        print(f"{len(df)} reviews ingeladen.")
+        print(f"{len(df)} reviews loaded.")
     except Exception as e:
-        print(f"FOUT: Kon data niet laden. {e}")
+        print(f"ERROR: Could not load data. {e}")
         return
 
-    # --- 2. Filter op reviews met commentaar (NEGEERT DE NaN WAARDEN) ---
+    # --- 2. Filter for reviews with comments ---
     df_comments = df.dropna(subset=['comment']).copy()
     comments_list = df_comments['comment'].tolist()
-    print(f"{len(comments_list)} commentaren gevonden om te clusteren (NaNs genegeerd).")
+    print(f"{len(comments_list)} comments found for clustering.")
 
     if len(comments_list) == 0:
-        print("Geen commentaren gevonden om te analyseren. Script stopt.")
-        # We maken wel een leeg, maar geldig, bestand voor PowerBI
+        print("No comments found to analyze. Script stopping.")
         df['topic_nr'] = np.nan 
     else:
-        # --- 3. Stel het Topic Model in ---
-        print("Stap 2: Modellen laden voor topic modeling...")
+        # --- 3. Setup Topic Model ---
+        print("Step 2: Loading models for topic modeling...")
         sentence_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 
         topic_model = BERTopic(
@@ -50,45 +49,46 @@ def analyze_topics():
             verbose=True
         )
 
-        # --- 4. Train het model en wijs topics toe ---
-        print("Stap 3: Topics aan het trainen en toewijzen... (Dit kan even duren)")
+        # --- 4. Train model and assign topics ---
+        print("Step 3: Training topics and assigning... (This may take a while)")
         topics, probabilities = topic_model.fit_transform(comments_list)
 
-        # Voeg de topic-nummers toe aan ons DataFrame
         df_comments['topic_nr'] = topics
 
-        # --- 5. Bekijk de gevonden topics in de terminal ---
-        print("\n--- Gevonden Topics (Top 5 woorden per topic) ---")
+        # --- 5. View found topics ---
+        print("\n--- Found Topics (Top 5 words per topic) ---")
         top_topics = topic_model.get_topic_info()
         print(top_topics[top_topics.Topic != -1].head(10))
         print("--------------------------------------------------\n")
+        
+        # --- 5.1 Validation: Save visualization ---
+        print("Generating visualization...")
+        try:
+            fig = topic_model.visualize_topics()
+            fig.write_html("bertopic_visualization.html")
+            print("Visualization saved to 'bertopic_visualization.html'.")
+        except Exception as e:
+            print(f"Warning: Could not save visualization: {e}")
 
-        # --- 6. Voeg de topic-data samen met de hoofdtabel ---
-        # Reviews die geen topic-analyse hadden (omdat ze NaN waren) krijgen hier
-        # automatisch ook 'NaN' voor 'topic_nr'.
+        # --- 6. Merge topic data ---
         df = df.join(df_comments[['topic_nr']])
 
-    # --- 7. Sla het definitieve bestand op (MET NaN -> null CONVERSIE) ---
-    print(f"Stap 4: Definitief bestand opslaan naar '{OUTPUT_FILE}' (NaNs worden omgezet naar null)...")
+    # --- 7. Save final file ---
+    print(f"Step 4: Saving final file to '{OUTPUT_FILE}'...")
 
-    # Zet alle 'NaN' waarden (Not a Number) van pandas om naar 'None' (Python's versie van null)
-    # Dit is de cruciale stap voor JSON-compatibiliteit.
+    # Convert NaN to None (null) for JSON compatibility
     df_for_json = df.replace({np.nan: None})
 
-    # Converteer het DataFrame naar de dictionary-structuur die Power BI verwacht
     output_data = {"reviews": df_for_json.to_dict('records')}
     
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            # json.dump() zal 'None' automatisch omzetten naar 'null' in het JSON-bestand.
             json.dump(output_data, f, indent=2, ensure_ascii=False)
 
-        print(f"\nAlle analyses voltooid! '{OUTPUT_FILE}' is succesvol aangemaakt.")
-        print("Dit bestand is nu 100% JSON-compatibel en kan door Power BI gelezen worden.")
+        print(f"\nAll analyses completed! '{OUTPUT_FILE}' created successfully.")
 
     except Exception as e:
-        print(f"\nFOUT bij het wegschrijven van de JSON: {e}")
+        print(f"\nERROR writing JSON: {e}")
 
-# --- Voer de functie uit als het script direct wordt gerund ---
 if __name__ == "__main__":
     analyze_topics()

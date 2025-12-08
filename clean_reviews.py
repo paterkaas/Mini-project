@@ -1,10 +1,10 @@
 import json
 import os
 
-INPUT_FILE = 'combined_reviews.json'
+INPUT_FILE = 'terspegelt.json'
 OUTPUT_FILE = 'cleaned_reviews.json'
 
-# 1. Mapping om string-ratings om te zetten naar getallen
+# 1. Mapping to convert string ratings to numbers
 RATING_MAP = {
     "FIVE": 5,
     "FOUR": 4,
@@ -15,93 +15,89 @@ RATING_MAP = {
 
 def clean_review_data():
     """
-    Leest het gecombineerde JSON-bestand, schoont de data op, 
-    en slaat het op in een nieuw bestand.
+    Reads the combined JSON file, cleans the data,
+    and saves it to a new file.
     """
     
-    # --- 1. Inladen van het bestand ---
+    # --- 1. Load the file ---
     if not os.path.exists(INPUT_FILE):
-        print(f"FOUT: Bestand '{INPUT_FILE}' niet gevonden.")
-        print("Voer eerst het script 'combineer_reviews.py' uit.")
+        print(f"ERROR: File '{INPUT_FILE}' not found.")
+        print("Please run 'combined_reviews.py' first.")
         return
 
     try:
         with open(INPUT_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except json.JSONDecodeError:
-        print(f"FOUT: Kon JSON niet lezen uit '{INPUT_FILE}'. Is het bestand corrupt?")
+        print(f"ERROR: Could not read JSON from '{INPUT_FILE}'. Is the file corrupt?")
         return
 
     if 'reviews' not in data or not isinstance(data['reviews'], list):
-        print(f"FOUT: '{INPUT_FILE}' heeft niet de verwachte structuur (geen 'reviews'-lijst).")
+        print(f"ERROR: '{INPUT_FILE}' does not have the expected structure (no 'reviews' list).")
         return
 
     original_count = len(data['reviews'])
-    print(f"Starten met opschonen... {original_count} reviews gevonden in '{INPUT_FILE}'.")
+    print(f"Starting cleaning process... {original_count} reviews found in '{INPUT_FILE}'.")
 
-    # --- 2. Data opschonen ---
+    # --- 2. Clean data ---
     cleaned_reviews_list = []
-    processed_ids = set()  # Set om duplicaten bij te houden
+    processed_ids = set()  # Set to track duplicates
     skipped_count = 0
     duplicate_count = 0
 
     for review in data['reviews']:
         
-        # 2a. Check op duplicaten
+        # 2a. Check for duplicates
         review_id_full = review.get('name')
         if not review_id_full:
-            print("WAARSCHUWING: Review zonder 'name' (ID) gevonden. Wordt overgeslagen.")
+            print("WARNING: Review found without 'name' (ID). Skipping.")
             skipped_count += 1
             continue
             
         if review_id_full in processed_ids:
             duplicate_count += 1
-            continue  # Dit is een duplicaat, sla over
+            continue  # This is a duplicate, skip
         processed_ids.add(review_id_full)
 
-        # 2b. Converteer rating
+        # 2b. Convert rating
         rating_str = review.get('starRating')
-        rating_int = RATING_MAP.get(rating_str)  # Geeft 'None' als de rating niet bestaat
+        rating_int = RATING_MAP.get(rating_str)  # Returns 'None' if rating does not exist
 
-        # 2c. Haal reviewer naam op (en 'plat' de structuur)
+        # 2c. Get reviewer name
         reviewer_name = review.get('reviewer', {}).get('displayName')
 
-        # 2d. Filter: Sla reviews zonder rating of naam over
+        # 2d. Filter: Skip reviews without rating or name
         if not rating_int or not reviewer_name:
             skipped_count += 1
             continue
 
-        # 2e. Bouw het nieuwe, schone object
-        # We pakken alleen de velden die we willen houden
+        # 2e. Build the new, clean object
         cleaned_review = {
-            "reviewId": review_id_full.split('/')[-1],  # Een kortere, schone ID
+            "reviewId": review_id_full.split('/')[-1],  # A shorter, cleaner ID
             "reviewerName": reviewer_name,
             "rating": rating_int,
             "createTime": review.get('createTime'),
-            "comment": review.get('comment'),  # Pak het review-commentaar (indien aanwezig)
-            "replyComment": review.get('reviewReply', {}).get('comment') # Pak het antwoord (indien aanwezig)
+            "comment": review.get('comment'),  # Get review comment (if present)
+            "replyComment": review.get('reviewReply', {}).get('comment') # Get reply (if present)
         }
         
         cleaned_reviews_list.append(cleaned_review)
 
-    # --- 3. Opslaan van het resultaat ---
-    
-    # We slaan het op in dezelfde structuur als het origineel
+    # --- 3. Save the result ---
     cleaned_data_output = {"reviews": cleaned_reviews_list}
 
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             json.dump(cleaned_data_output, f, indent=2, ensure_ascii=False)
         
-        print("\n--- Opschonen Voltooid ---")
-        print(f"Totaal {original_count} reviews verwerkt.")
-        print(f"  {duplicate_count} duplicaten verwijderd.")
-        print(f"  {skipped_count} reviews overgeslagen (mistte rating of naam).")
-        print(f"**{len(cleaned_reviews_list)} schone reviews** opgeslagen in '{OUTPUT_FILE}'.")
+        print("\n--- Cleaning Completed ---")
+        print(f"Total {original_count} reviews processed.")
+        print(f"  {duplicate_count} duplicates removed.")
+        print(f"  {skipped_count} reviews skipped (missing rating or name).")
+        print(f"**{len(cleaned_reviews_list)} clean reviews** saved in '{OUTPUT_FILE}'.")
 
     except Exception as e:
-        print(f"\nFOUT: Kon het schone bestand '{OUTPUT_FILE}' niet wegschrijven: {e}")
+        print(f"\nERROR: Could not write clean file '{OUTPUT_FILE}': {e}")
 
-# --- Voer de functie uit als het script direct wordt gerund ---
 if __name__ == "__main__":
     clean_review_data()

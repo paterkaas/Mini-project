@@ -86,7 +86,7 @@
       "replyComment": "Beste Ans, bedankt voor het achterlaten van een review. Drie sterren, hierin zien wij nog verbetering. Kunt u ons aangeven wat er beter zou kunnen of niet geheel naar wens was? We horen het heel graag! Kristel | De Keizer eten en drinken\n\nReactie twee: Wanneer was u bij ons op het terras? Normaal gesproken staan bij goed weer onze parasols namelijk allemaal open. Ik hoor het graag! Alvast bedankt.",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996627569198608,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMwdDZPMDFRRRAB",
@@ -229,7 +229,7 @@
       "replyComment": "Beste Nicole, wat vervelend om te horen dat jullie geen goede indruk hebben over TerSpegelt. Wat betreft het eten; hebben jullie dit vooraf of nadien aangegeven bij de bediening? Wat betreft de openingstijden; excuses voor deze verwarring. Normaal gesproken werken wij de openingstijden ruim van tevoren bij maar zo te lezen was dit een uitzondering. Uiteraard is het nooit onze bedoeling geweest om jullie als leugenaar uit te maken.  Zijn jullie op dit moment nog op de camping? Dan zouden wij het waarderen als jullie even contact met ons opnemen (promotie@terspegelt.nl). Alvast bedankt en nogmaals onze excuses! ^Juultje",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9995403289794922,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUQyN2JINjJnRRAB",
@@ -427,7 +427,7 @@
       "replyComment": "Thank you for writing this review. We hope to welcome you again at our park! ^Juultje",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9990623593330383,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMydjVxdTVnRRAB",
@@ -482,7 +482,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996170997619629,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURVM2Uyb1RnEAE",
@@ -801,7 +801,7 @@
       "replyComment": "Bedankt voor de beoordeling! Fijn om te horen dat jullie zo genoten hebben. Hopelijk tot snel op TerSpegelt.\n\nKristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.999488115310669,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNVeE1LTUVBEAE",
@@ -955,7 +955,7 @@
       "replyComment": "Goedemiddag,\n\nBedankt voor jullie beoordeling! Goed om te lezen dat jullie een fijne vakantie hebben gehad op TerSpegelt. Wat betreft het geluidsoverlast, het klopt dat het vanaf 23.00 uur rustig moet zijn op park. Afgelopen week was er echter een groot feest bij de naastgelegen voetbalvereniging i.v.m. hun jubileum. We verwachten dat het lawaai daar vandaan kwam. Op TerSpegelt zelf liepen namelijk 4 nachtbewakers rond en zij geven aan dat het op het park rustig was. Onze excuses voor het ongemak!\n\nHopelijk zien we jullie, ondanks dat, nog eens terug op TerSpegelt!\n\nMet vriendelijke groet,\nKristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995577931404114,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURRb19DSTRnRRAB",
@@ -1142,7 +1142,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994096755981445,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN3cHFiWEh3EAE",
@@ -1384,7 +1384,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9950260519981384,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnTUNZNUlyR1p3EAE",
@@ -1395,7 +1395,7 @@
       "replyComment": "Bedankt voor je review Patrick, we nemen je feedback graag mee om ons park te verbeteren! ^Scott",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994680285453796,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnTURvaGVPUEVnEAE",
@@ -1406,7 +1406,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9985951781272888,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnTUNveVBUa2J3EAE",
@@ -1494,7 +1494,7 @@
       "replyComment": "Hallo René, bedankt voor het delen van deze review. Wat leuk dat jullie een fijne dag hebben gehad op ons SterrenStrand. Het is vervelend om te horen dat je de een negatieve ervaring hebt gehad met de badjuf. Wij zullen deze feedback zeker meenemen, zodat we zulke ervaringen in de toekomst kunnen voorkomen. Graag tot een volgende keer! ^Sanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.998945415019989,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURYclBhWHF3RRAB",
@@ -1582,7 +1582,7 @@
       "replyComment": "Hallo Julian, wie schade, dass du aufgrund der Umstände absagen musstest. Leider müssen wir bei der Annullierung die Bedingungen beachten. Der Ferienpark TerSpegelt ist mit RECRON verbunden. Auf https://www.terspegelt.nl/de/bedingungen finden Sie unter \"RECRON-Bedingungen\" alle Informationen zum Widerruf. Es wäre schön, wenn Sie sich das in Ruhe noch einmal ansehen könnten. Außerdem haben unsere Kollegen verschiedene Optionen für 2023 genannt. Sollten diese noch nicht ganz klar sein, können Sie sich jederzeit an uns wenden. Ich hoffe, dass Sie damit genügend Informationen erhalten haben, die Ihnen in Zukunft helfen werden. Alles Gute für 2023.^Anna",
       "sentiment_label": "Negative",
       "sentiment_score": 0.5118535161018372,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNCOUoyQnN3RRAB",
@@ -1736,7 +1736,7 @@
       "replyComment": "Hi Kim, leuk dat jullie op TerSpegelt hebben verbleven. Binnen in ons overdekt zwembad en SterrenStrand wordt alles heerlijk verwarmd. Het water uit het SterrenStrand wordt daarentegen niet verwarmd, aangezien dit natuurwater is. Hierdoor kan het water in het laagseizoen vanwege de buitentemperaturen als kouder worden ervaren. Daarnaast hebben we ervoor gekozen om de kinderboerderij af te sluiten voor het welzijn van de dieren. Om die reden wordt er alleen in het laagseizoen een activiteit ingeplant, waarbij de kinderen op avontuur kunnen in de Kinderboerderij. Bedankt voor je review en hopelijk zien we jullie ondanks deze ervaring toch nog eens terug bij ons op het park! ^Lieke",
       "sentiment_label": "Negative",
       "sentiment_score": 0.999667763710022,
-      "topic_nr": 1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMtME0yYUxnEAE",
@@ -1747,7 +1747,7 @@
       "replyComment": "Hi Chantal, bedankt voor je complimenten over ons park en het zwembad, daar worden wij ontzettend blij van! Hopelijk zien we jullie nog eens terug op Recreatiepark TerSpegelt! ^Lieke",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991075396537781,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMtNFA3ZlJBEAE",
@@ -1813,7 +1813,7 @@
       "replyComment": "Bedankt Bert! We vinden het erg belangrijk om te blijven vernieuwen, zo kunnen we elk jaar weer onze gasten verrassen. ^Scott",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996716976165771,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJZXZ4Ny03X3QyY1R3EAE",
@@ -1868,7 +1868,7 @@
       "replyComment": "Thanks for your lovely review! Great to hear you had fun, we’d love to welcome you back to try one of those swish spots next time! 😊 ^Scott",
       "sentiment_label": "Positive",
       "sentiment_score": 0.918249249458313,
-      "topic_nr": 1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pob1pIWkZSbHAyU1Mwd2QyaEZRV3RVU21OemJVRRAB",
@@ -1945,7 +1945,7 @@
       "replyComment": "Bedankt voor jullie fijne review! Wat geweldig om te horen dat jullie zo’n mooie vakantie hebben gehad en dat alles zo goed geregeld was. Fijn dat het team een positieve indruk heeft achtergelaten. We hopen jullie in de toekomst weer te mogen verwelkomen! ^Scott",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996985197067261,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VQcmZ1OUg3dFAtX0pBEAE",
@@ -2308,7 +2308,7 @@
       "replyComment": "Hallo, zu Allererst möchten wir uns bei Ihnen für Ihre Bewertung und die Komplimente bedanken. Es freut uns zu lesen, dass Ihnen der Ferienpark, die Natur, die Seen und die Umgebung gefallen haben. Wir werden Ihre Komplimente an unsere  Reinigungs- und Empfangsdamen mit Sicherheit weitergegeben. Was uns jedoch schockiert, sind Zwischenfälle, wie die beschriebene Belästigung durch andere Campinggäste. Auch wenn es sich um Kinder handelt, würden wir hier jederzeit vermitteln. Wir werden unser Erholungsteam darauf hinweisen, noch intensiver ein Auge auf mögliche Formen von Belästigung unter Kindern zu haben.\nLeider können wir unseren Gästen bezüglich des WLANS nicht garantieren, dass die Signalstärke zu jeder Zeit auf allerhöchstem Niveau ist. Wir sind von unseren technischen Anbietern abhängig, und bemühen uns immer um eine flächendeckende funktionierende Internetverbindung. Das gilt auch für unsere Kinderanimation. Auch hier bemühen wir uns Angebote für unsere deutschen Gäste anzubieten.\n\nTrotz alledem hoffen wir doch, dass Sie uns Ihre Kinder gemeinsame eine schöne Zeit bei TerSpegelt verbringen konnten. Ihre Bemerkungen nehmen wir intern weiter auf.\n\nIsabella | Recreatiepark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9915995597839355,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNDMnBYRVBnEAE",
@@ -2319,7 +2319,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995050430297852,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNDMnR6Y2NBEAE",
@@ -2385,7 +2385,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994282126426697,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNDOHM3N1B3EAE",
@@ -2473,7 +2473,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9916621446609497,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRczliU1h3EAE",
@@ -2506,7 +2506,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.8467881083488464,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNBOHQySjZnRRAB",
@@ -2517,7 +2517,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995806813240051,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURncGV5VExBEAE",
@@ -2528,7 +2528,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996508359909058,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNRODVTNXFBRRAB",
@@ -2561,7 +2561,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.999339759349823,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRak5EQkVREAE",
@@ -2660,7 +2660,7 @@
       "replyComment": "Wauw 5 sterren, bedankt daarvoor Wil! Daar worden wij blij van. Graag tot ziens bij TerSpegelt! ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9974804520606995,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURPdDlxUVpnEAE",
@@ -2781,7 +2781,7 @@
       "replyComment": "Hallo Dunja, es tut uns leid zu hören, dass Ihr Urlaub aufgrund von Corona nicht stattfinden konnte. Wie Sie vielleicht schon gehört haben, können Sie im Falle einer Corona-Infektion bis zu 1 Woche vor Anreise kostenlos umbuchen. Wenn Sie innerhalb von 1 Woche vor der Ankunft stornieren, zahlen Sie die Reservierungskosten nur, wenn Sie eine Rücktrittsversicherung abgeschlossen haben. Leider haben Sie keine Rücktrittsversicherung abgeschlossen, so dass wir 90% des Mietpreises und der Reservierungskosten in Rechnung stellen müssen. Trotz dieser Erfahrung hoffen wir, dass Sie TerSpegelt eine zweite Chance geben können! ^Anouk",
       "sentiment_label": "Negative",
       "sentiment_score": 0.7462406754493713,
-      "topic_nr": -1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURPam9UMTBBRRAB",
@@ -2792,7 +2792,7 @@
       "replyComment": "Hallo Diana, es tut uns leid zu hören, dass Ihr Urlaub von Corona storniert wurde. Wie Sie vielleicht schon gehört haben, können Sie im Falle einer Corona-Infektion bis zu 1 Woche vor der Anreise kostenlos umbuchen. Wenn Sie innerhalb von 1 Woche vor der Ankunft stornieren, zahlen Sie die Reservierungskosten nur, wenn Sie eine Rücktrittsversicherung abgeschlossen haben. Leider haben Sie diesen Fonds nicht in Anspruch genommen und wir müssen Ihnen 90% des Mietpreises und der Reservierungskosten in Rechnung stellen. Trotz dieser Erfahrung hoffen wir, dass Sie TerSpegelt eine zweite Chance geben können! ^Anouk",
       "sentiment_label": "Positive",
       "sentiment_score": 0.8132108449935913,
-      "topic_nr": -1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURPZ05Dc2pRRRAB",
@@ -3100,7 +3100,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996604919433594,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNBNzdmVVVBEAE",
@@ -3320,7 +3320,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9989081621170044,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNndTR5Ukl3EAE",
@@ -3562,7 +3562,7 @@
       "replyComment": "Wauw wat een fantastische review Karin! Daar worden wij heel blij van. Bij wat minder weer is er inderdaad van alles te beleven in het SterrenStrand. Bedankt voor deze mooie en uitgebreide review en hopelijk mogen wij jullie snel weer verwelkomen bij het SterrenStrand! ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997257590293884,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURwM3NTYm1nRRAB",
@@ -3617,7 +3617,7 @@
       "replyComment": "Hi Chantal, fijn dat de kinderen het leuk vonden! Het park zit 100% vol waardoor het inderdaad druk kan zijn, vooral met dit weer. Hopelijk ondanks de drukte toch nog een leuke dag gehad! ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.999477207660675,
-      "topic_nr": -1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNwM1ktMjJ3RRAB",
@@ -3650,7 +3650,7 @@
       "replyComment": "Hi, allereerst bedankt voor je bezoek aan het SterrenStrand en je feedback hierop. Wat vervelend om te horen dat de kinderen snel klaar waren met spelen. Het water van het SterrenStrand is natuurwater uit onze ZwemPlas, dit kan op minder warme dagen soms koud aanvoelen. In het BinnenZwembad hebben we een baantjestrekken bad, hier is het inderdaad niet de bedoeling dat er gedoken wordt. Jammer dat jullie dat zo ervaren hebben met de badmeesters, ik zal het terugkoppelen aan de medewerkers van het zwembad. Toch bedankt voor de complimenten over de netheid en de ruimte. ^Maud",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9997001886367798,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNweEl1Vm1BRRAB",
@@ -3958,7 +3958,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995163679122925,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNVbmM2ZThRRRAB",
@@ -4112,7 +4112,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9984714388847351,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNVNGFQVkxBEAE",
@@ -4134,7 +4134,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.999371349811554,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNVX3JxYmN3EAE",
@@ -4145,7 +4145,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9889639616012573,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNVM3J6bXhnRRAB",
@@ -4178,7 +4178,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995825886726379,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNRMmNqWXBnRRAB",
@@ -4288,7 +4288,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996899366378784,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRcWVEc0R3EAE",
@@ -4541,7 +4541,7 @@
       "replyComment": "Hi Ilona, dankjewel voor het mooie compliment mbt ons zwembad en SterrenStrand. Wat jammer om te horen dat je niet tevreden bent over het bezoek aan het restaurant. Momenteel zijn we druk bezig met de voorbereidingen van seizoen 2022. Hierin zullen we je opmerking zeker meenemen. Wat betreft je opmerking over de vaste plaatsen op onze camping, de komende jaren gaan wij ons steeds meer richten op de korte vakanties, hierdoor zal het aantal vaste plaatsen dan ook afnemen. ^Xanne",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9987859129905701,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURHb0pxQ2tBRRAB",
@@ -4761,7 +4761,7 @@
       "replyComment": "Bedankt voor de 5-sterren review! ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.999627947807312,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURqdU0tdU1BEAE",
@@ -4794,7 +4794,7 @@
       "replyComment": "Dankjewel voor het achterlaten van deze review! ^Stephanie\n",
       "sentiment_label": "Positive",
       "sentiment_score": 0.999359667301178,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNqcU1hVmZ3EAE",
@@ -4838,7 +4838,7 @@
       "replyComment": "Bedankt voor deze mooie review! Wat vervelend om te horen dat de nacho's niet naar wens waren, dit zullen we terugkoppelen. Hopelijk mogen we jullie snel weer verwelkomen! ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991993308067322,
-      "topic_nr": -1.0
+      "topic_nr": 2.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNnZ05qcV9RRRAB",
@@ -4849,7 +4849,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9967243075370789,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURRc00zNkxBEAE",
@@ -4904,7 +4904,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.984379231929779,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURnX01QMzdBRRAB",
@@ -5003,7 +5003,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9995378255844116,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURRbmNMSGpRRRAB",
@@ -5058,7 +5058,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9983282685279846,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRbTZETUV3EAE",
@@ -5212,7 +5212,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991999268531799,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURndzlteW1RRRAB",
@@ -5267,7 +5267,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996139407157898,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURRaF82Z2hnRRAB",
@@ -5311,7 +5311,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.977970540523529,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNZcV9ldmtnRRAB",
@@ -5344,7 +5344,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.6483412981033325,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNZdTlYaUJ3EAE",
@@ -5619,7 +5619,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995118379592896,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUQ2cE1DRnlBRRAB",
@@ -5663,7 +5663,7 @@
       "replyComment": "Hi Angela, dank u wel voor uw mooie review en uw complimenten. We hopen u snel weer te zien bij ons SterrenStrand! ^Xanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.996707022190094,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUM2X3A2R01REAE",
@@ -5905,7 +5905,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9992478489875793,
-      "topic_nr": 2.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR3NU1MUHRBRRAB",
@@ -6202,7 +6202,7 @@
       "replyComment": "Hoi Niels,\n\nWat goed om te lezen dat je een leuke vakantie hebt gehad bij TerSpegelt! Dat zien wij graag. Bedankt voor je review en graag tot volgend jaar! ^Michelle",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991551637649536,
-      "topic_nr": 9.0
+      "topic_nr": 0.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURVam96SWhRRRAB",
@@ -6257,7 +6257,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995654225349426,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURVcG9xVFlnEAE",
@@ -6642,7 +6642,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995825886726379,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRcHQtX0FREAE",
@@ -6917,7 +6917,7 @@
       "replyComment": "Wauw, familie Flikweert, wat een mooie review hebben jullie geschreven over ons park! Hier worden wij natuurlijk enorm blij van. Dankjewel voor al jullie mooie complimenten! We hopen jullie snel weer terug te zien bij TerSpegelt voor LekkerVakantie. ^Xanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996920824050903,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUQ2N29ieTZBRRAB",
@@ -7016,7 +7016,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993292093276978,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURpaUtER2FBEAE",
@@ -7060,7 +7060,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.999710738658905,
-      "topic_nr": 2.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRMmZHT0lBEAE",
@@ -7335,7 +7335,7 @@
       "replyComment": "Dat klinkt als een geweldige vakantie Chris! Super fijn dat jullie het zo leuk hebben gehad. Hopelijk zien we jullie snel nog eens terug. ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997395873069763,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ3eWF2OGNBEAE",
@@ -7423,7 +7423,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997178912162781,
-      "topic_nr": -1.0
+      "topic_nr": 0.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ3d3BlQ0RnEAE",
@@ -7533,7 +7533,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.997914731502533,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQwM0lxRk1REAE",
@@ -7566,7 +7566,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995825886726379,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQwOUtMSFlREAE",
@@ -8215,7 +8215,7 @@
       "replyComment": "Wat een fantastisch bericht om te lezen, bedankt Kim! Wat fijn dat jullie zo hebben genoten. Van het huisje tot de faciliteiten en natuurlijk alle kinderpret. Geweldig om te horen dat jullie je zo welkom voelden. We kijken er nu al naar uit om jullie volgend jaar weer terug te zien op TerSpegelt! ^Meaux",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997743964195251,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tSS2FGVXhTbk14VG1SdFEzQlFRVkpTTTBRelJtYxAB",
@@ -8226,7 +8226,7 @@
       "replyComment": "Es freut uns sehr zu lesen, dass ihr eure Zeit bei uns so genossen habt, Philipp, auch in der Nebensaison!  Schön, dass euch das Hallenbad, der Indoor-Spielplatz und unser Supermarkt gefallen haben und dass ihr natürlich auch unser Gastronomieangebot so schätzt. Wir freuen uns darauf, euch bald wieder bei TerSpegelt begrüßen zu dürfen! ^Meaux",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9992204904556274,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pOU01YQllTbkZpVWxZMWNUQm9Ra0ZzVVU5c05FRRAB",
@@ -8479,7 +8479,7 @@
       "replyComment": "Hi Nick,\nAllereerst bedankt voor je review. Wat jammer dat je bezoek aan ons SterrenStrand niet de volle beoordeling waard zijn. Zou je me kunnen vertellen waaraan dit ligt? Ik hoor het graag! ^Michelle",
       "sentiment_label": "Negative",
       "sentiment_score": 0.8915168046951294,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNNZ1p1akRREAE",
@@ -8490,7 +8490,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995644688606262,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNNdFBXcEZ3EAE",
@@ -8677,7 +8677,7 @@
       "replyComment": "Beste Danny,\nWe betreuren hetgeen dat u beschrijft in bovenstaande review is. Recreatiepark TerSpegelt biedt inderdaad een voordelig tarief via diverse kortingskaarten. Deze aangepaste tarieven zijn echter niet in alle periodes/weekenden van toepassing. Jammer dat u dit pas bij aankomst heeft ondervonden.\nDesondanks vinden we het erg jammer dat dit is voorgevallen. Uiteraard zien we u graag een volgende keer op TerSpegelt om te genieten van een heerlijk(e) weekend of vakantie op ons prachtige park. Met vriendelijke groet, Recreatiepark TerSepegelt",
       "sentiment_label": "Negative",
       "sentiment_score": 0.6993255615234375,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNBNUkzWnRRRRAB",
@@ -8820,7 +8820,7 @@
       "replyComment": "Hallo Lutz,\nDanke für die Komplimente. Es tut mir viel Spaß zu lesen dass, das Hallenbad und SterrenStrand gut gefallen sind! Hoffentlich bis bald bei TerSpegelt. ^Michelle",
       "sentiment_label": "Positive",
       "sentiment_score": 0.8168351650238037,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNNLTZxVURnEAE",
@@ -9062,7 +9062,7 @@
       "replyComment": "Hi Finn, bedankt voor je review. 5 sterren, daar worden we blij van! Hopelijk tot ziens op TerSpegelt ^Merel",
       "sentiment_label": "Negative",
       "sentiment_score": 0.7758732438087463,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNVbDZLMUdBEAE",
@@ -9546,7 +9546,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.99954754114151,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1MHJhaDN3RRAB",
@@ -9645,7 +9645,7 @@
       "replyComment": "Hi Tobias, danke für Ihre Komplimente über unseren Campingplatz und die Badenseen. Wer weiß, vielleicht sehen wir Sie nochmals bei uns im Ferienpark TerSpegelt wieder. ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991139769554138,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1MExXNVhnEAE",
@@ -9678,7 +9678,7 @@
       "replyComment": "Hallo Lea, sehr unangenehm zu lesen. Können Sie erklären, wo und wann unsere Mitarbeiter unfreundlich waren? Dann können wir das intern diskutieren, denn das ist natürlich nicht die Absicht! Ich hoffe, von Ihnen zu hören! ^Anouk",
       "sentiment_label": "Negative",
       "sentiment_score": 0.8317782282829285,
-      "topic_nr": 2.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMwdi0ySDZRRRAB",
@@ -9799,7 +9799,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.6942546367645264,
-      "topic_nr": -1.0
+      "topic_nr": 0.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMweS1fVmpBRRAB",
@@ -9920,7 +9920,7 @@
       "replyComment": "Hoi Jan,\n\nBedankt voor je review. Wij hopen dat je hebt genoten bij ons SterrenStrand! Graag tot ziens.^Michelle",
       "sentiment_label": "Positive",
       "sentiment_score": 0.999352753162384,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMwcHFybFN3EAE",
@@ -10085,7 +10085,7 @@
       "replyComment": "Hoi Linda,\n\nGoed om te lezen dat je het zwembad leuk vond voor de kids. Wat jammer om te zien dat je niet optimaal hebt kunnen genieten vanwege het lange wachten en weinig zitruimte. Ik dank je voor je feedback. ^Michelle",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9850954413414001,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURVbDdpQzZBRRAB",
@@ -10272,7 +10272,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9983837604522705,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURVNWJXemJ3EAE",
@@ -10316,7 +10316,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.7809486389160156,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURVOGZLZzFBRRAB",
@@ -10448,7 +10448,7 @@
       "replyComment": "Bedankt voor je uitgebreide review. Goed om te horen dat de safaritenten in de smaak vallen. Jammer dat er geen vis gevangen is tijdens jullie verblijf. Misschien dat iemand anders meer geluk had gedurende de vakantie ;). Bedankt voor je melding wat betreft de prijzen. We gaan dit direct controleren en aanpassen. Onze excuses hiervoor! Wij hopen jullie ondanks dit nog een keer terug te zien bij TerSpegelt. ^Juultje",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9911603331565857,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMyeXJHRWhRRRAB",
@@ -10459,7 +10459,7 @@
       "replyComment": "Bedankt voor het achterlaten van deze mooie review! Wat fijn dat jullie het naar je zin hebben gehad op ons park. Jammer dat jullie het een en ander miste voor jullie peuter in het zwembad. Was de CanalPlay ook niet leuk voor hem/haar? Hopelijk hebben jullie en jullie peuter alsnog genoten van de vakantie! Wie weet zien we jullie nog eens terug voor LekkerVakantie bij TerSpegelt. ^Juultje",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996734857559204,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMyOHJLdEZREAE",
@@ -10492,7 +10492,7 @@
       "replyComment": "Vielen Dank, dass Sie diese Bewertung hinterlassen haben. Es tut uns leid zu hören, dass Ihre Aufenthalt nicht ganz zufriedenstellend war.\nHaben Sie die Lärmbelästigung an unserer Rezeption gemeldet? Wir sind ein Familienpark, in dem es ab 23:00 Uhr ruhig sein muss. Wir hoffen, Sie bei TerSpegelt wiederzusehen. Dann hoffentlich mit etwas mehr Ruhe. ^Juultje",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9139492511749268,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNZMjduRUdREAE",
@@ -10712,7 +10712,7 @@
       "replyComment": "Wat fijn om te horen dat we na wat teleurstelling weer aan jullie verwachtingen hebben voldaan en dat jullie een fijn verblijf hebben gehad. Dankjewel voor de complimenten en we zien jullie heel graag nog eens terug! ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.999748170375824,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNMM0pUOHp3RRAB",
@@ -10734,7 +10734,7 @@
       "replyComment": "Goed te horen dat jullie je ondanks het helaas mindere weer toch een fijn verblijf hebben. Hopelijk pikken we nog wat zonnestraaltjes mee en kunnen jullie nog even extra genieten van je verblijf met lekker weer! ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9992830157279968,
-      "topic_nr": -1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNMN0x2b1RREAE",
@@ -10822,7 +10822,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.999658465385437,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNnXzdXYVR3EAE",
@@ -11086,7 +11086,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9989699125289917,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURZZ2FPVTZ3RRAB",
@@ -11218,7 +11218,7 @@
       "replyComment": "Beste Tamara,\n\nAllereerst bedankt voor de terugkoppeling, en wat ontzettend vervelend om te lezen dat jullie verblijf niet was wat jullie ervan gehoopt hadden. We zouden graag met je in contact komen over bovenstaande. Helaas kunnen we je reservering niet terugvinden, aangezien de achternaam ontbreekt. Zou je een e-mail kunnen sturen naar info@terspegelt.nl.\n\nAlvast bedankt!\n\nKristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9996738433837891,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURRbjhISVRREAE",
@@ -11361,7 +11361,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9983324408531189,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURnZ18zVGlRRRAB",
@@ -11482,7 +11482,7 @@
       "replyComment": "Hi Bas, dankjewel voor de mooie review en de complimenten wat betreft het recreatieprogramma, de speeltuinen, het SterrenStrand, de recreatieplassen, het zwembad, en de faciliteiten. Fijn om te horen dat jullie genoten hebben van jullie verblijf op ons park. We hopen jullie snel weer terug te zien bij TerSpegelt voor LekkerVakantie! ^Xanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997138381004333,
-      "topic_nr": 11.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNHLXBfSGNnEAE",
@@ -11625,7 +11625,7 @@
       "replyComment": "Vielen dank für Ihre Empfehlung. Schön zu hören, dass Sie eine gute Zeit am Park hatten. Hofentlich bis bald. ^Xanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996334314346313,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ2OS1pLUpnEAE",
@@ -11801,7 +11801,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9980844259262085,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNNbmVUTHh3RRAB",
@@ -11944,7 +11944,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.999721348285675,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMwN3J2MjFnRRAB",
@@ -12065,7 +12065,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9894915819168091,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMwM0wtbGRBEAE",
@@ -12076,7 +12076,7 @@
       "replyComment": "Hoi Bram,\n\nBedankt voor je review met deze complimenten. Graag tot ziens bij TerSpegelt! ^Michelle",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9981246590614319,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMwbE1iTDZ3RRAB",
@@ -12164,7 +12164,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9992541670799255,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURnaWV6dkp3EAE",
@@ -12340,7 +12340,7 @@
       "replyComment": "Goed om te horen dat de WaterLodge zo goed is bevallen! Heerlijk plekje  is het hè :) Hopelijk tot ziens op ons park. ^Kristel",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996460676193237,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURrcTZ6d2l3RRAB",
@@ -12384,7 +12384,7 @@
       "replyComment": "Hoi Sander,\n\nWat vervelend om te lezen dat jullie verblijf op TerSpegelt niet goed is bevallen. Het pinksterweekend is inderdaad een druk weekend, met veel familie- en vriendenweekenden. Wel liep er afgelopen weekend nachtwacht rond op het park, om de orde te bewaren.\n\nHebben jullie hiervan een melding gemaakt tijdens jullie verblijf? Ik kan aan de hand van je naam jullie boeking niet terugvinden, dus ik kan het helaas niet terugzoeken. We hadden het namelijk heel graag direct voor jullie op willen lossen, aangezien wij een goede nachtrust voor al onze gasten erg belangrijk vinden.\n\nZouden jullie het reserveringsnummer van jullie boeking alsnog willen sturen naar info@terspegelt.nl?\n\nWe horen heel graag van jullie!\n\nKristel | Recreatiepark TerSpegelt\n\n----------------------\nReactie op bericht 04-07\n\nWat vervelend om te horen dat je geen reactie hebt gekregen. Ik heb even nagevraagd bij onze receptie of zij een mail hebben ontvangen, maar helaas konden zij geen mail vinden. Daarom wil ik even checken of het e-mailadres klopt. Dit is namelijk info@terspegelt.nl Wil je deze e-mail alsjeblieft nogmaals versturen? Voor de zekerheid graag ook naar promotie@terspegelt.nl Wij helpen je namelijk heel graag!\n\nKristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9997474551200867,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURrbmQ2b1FBEAE",
@@ -12461,7 +12461,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.7220569849014282,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURrNmRtWUpnEAE",
@@ -12472,7 +12472,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9981947541236877,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURrcWRmX0xBEAE",
@@ -12571,7 +12571,7 @@
       "replyComment": "Hi Nick, 1 ster... wat vervelend om te zien! Kan je toelichten wat er niet naar wens was tijdens je verblijf op TerSpegelt? We zouden je feedback graag ontvangen. Alvast bedankt voor de terugkoppeling. ^Merel",
       "sentiment_label": "Positive",
       "sentiment_score": 0.6003812551498413,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNhd3ItR0hnEAE",
@@ -12824,7 +12824,7 @@
       "replyComment": "Hoi Rogier,\nExcuses maken doet inderdaad geen pijn, dus bij deze. Wat ontzettend vervelend om te horen hoe het gelopen is. We zouden graag met u in contact komen om deze kwestie verder te bespreken. Kunt u een mail sturen naar info@dekeizereersel.nl t.a.v. Kristel? Alvast bedankt.\nMet vriendelijke groet, Kristel | De Keizer eten & drinken",
       "sentiment_label": "Negative",
       "sentiment_score": 0.999265730381012,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN3dzRlYjVBRRAB",
@@ -13231,7 +13231,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996665716171265,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURReWRDQ01nEAE",
@@ -13242,7 +13242,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9959672689437866,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURnMGREekNREAE",
@@ -13363,7 +13363,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9980699419975281,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURBM3A2M0d3EAE",
@@ -13506,7 +13506,7 @@
       "replyComment": "Fijn dat je hebt genoten Kevin! Graag tot ziens ^Scott",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9983949065208435,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xSblIxZDJVbDgxVFhSemEzZEliMjlrWlhGWWQxRRAB",
@@ -13671,7 +13671,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9984777569770813,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURBb1plbGlnRRAB",
@@ -13825,7 +13825,7 @@
       "replyComment": "Bedankt voor je mooie review Ien. Wat goed om te horen dat de sfeer zo leuk was :). Hopelijk tot ziens op ons gezellige terras. Kristel | De Keizer eten & drinken",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9988283514976501,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNhcFlTWlV3EAE",
@@ -14034,7 +14034,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9983837604522705,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNnOFpTSUdBEAE",
@@ -14111,7 +14111,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9983434677124023,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNReDRHVlBBEAE",
@@ -14166,7 +14166,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997062087059021,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURBOGRXYS1RRRAB",
@@ -14518,7 +14518,7 @@
       "replyComment": "Hi Marrit, goed om te horen dat jullie in deze bizarre tijd hebben genoten van de vrijheid op TerSpegelt. Wij zijn blij te horen dat jullie je veilig voelden, ook dat vinden wij in deze tijd extra belangrijk! Hopelijk tot ziens op TerSpegelt. ^Merel",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996159076690674,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURjai1lb3p3RRAB",
@@ -14584,7 +14584,7 @@
       "replyComment": "Wow, vielen Dank für Ihre Bewertung! Gut zu lesen, dass es Ihnen so gut gefallen hat, trotz dieser seltsamen und bizarren Zeit. Hoffentlich bis bald. ^Merel",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9603438973426819,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURjMHBhcmF3EAE",
@@ -14617,7 +14617,7 @@
       "replyComment": "Beste Roos,\n\nAllereerst bedankt voor je terugkoppeling. Jammer dat voor jullie de FunLodge niet de beste keuze was. Hopelijk zien we jullie in de toekomst terug in een accommodatie die voor jullie op een fijnere locatie op het park ligt, de rustig gelegen WaterLodge met prachtig uitzicht over het water misschien? We hopen dan ook weer alles te kunnen bieden wat TerSpegelt normaal gesproken te bieden heeft! Nogmaals bedankt voor deze review.\n\nKristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.994086742401123,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURjc3F5eFlBEAE",
@@ -14639,7 +14639,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993650317192078,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN3ajRQV0JBEAE",
@@ -14782,7 +14782,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996451139450073,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNndjVxakZREAE",
@@ -14793,7 +14793,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995926022529602,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURBOUthNGF3EAE",
@@ -14980,7 +14980,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9983731508255005,
-      "topic_nr": 6.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURxb1lENDNBRRAB",
@@ -14991,7 +14991,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9974804520606995,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNVcjgzV1hnEAE",
@@ -15035,7 +15035,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9642184376716614,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURxN3FfN093EAE",
@@ -15068,7 +15068,7 @@
       "replyComment": "Hi Sylvana, wat vervelend om te lezen dat het niet naar verwachting is op TerSpegelt. Wij werken momenteel inderdaad met tijdsloten in het zwembad. Dit omdat wij gasten zoveel mogelijk proberen te verspreiden en iedereen een kans willen geven om te kunnen zwemmen. Helaas is dit voor jullie niet zo goed bevallen. De dieren in de KinderBoerderij zijn inderdaad buiten het hek te bekijken, daarnaast hebben wij een bezoek aan de Kinderboerderij onder begeleiding van een recreatie medewerker regelmatig in het programma staan, alleen niet in deze week. Wat het SterrenStrand betreft, direct bij de ingang van SterrenStrand is een speciaal gedeelte voor de kleinste kinderen met lagere speeltoestellen en in het zwembad is er de CanalPlay en het Bloos’Bad voor kleine kindjes. Konden de kindjes zich hier ook niet vermaken? Bedankt in ieder geval voor de uitgebreide review!  ^Anna",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9995670914649963,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNRX1lxSXhRRRAB",
@@ -15354,7 +15354,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994487166404724,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURrbUtxVVFREAE",
@@ -15607,7 +15607,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9940512776374817,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNnZ29pV1pBEAE",
@@ -15673,7 +15673,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997398257255554,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNnczlYdTdnRRAB",
@@ -15761,7 +15761,7 @@
       "replyComment": "Bedankt voor deze reactie. Wat ontzettend vervelend dat jouw moeder haar heup gebroken heeft. Wij begrijpen dat deze gebeurtenis veel impact heeft.\nWij hebben telefonisch contact gehad met jouw vader en daarin de situatie besproken. Recreatiepark TerSpegelt is aangesloten bij Recron en daarom houden wij ons aan de RECRON-voorwaarden als het gaat om annuleren. Op https://www.terspegelt.nl/algemene-voorwaarden kan je alle verdere informatie vinden met betrekking tot annuleren. \nBij een annulering rekenen wij annuleringskosten conform de voorwaarden. Aangezien je ouders via ons geen annuleringsfonds hebben afgesloten is het niet via ons verzekerd. Wel begrepen wij dat jouw ouders elders een reisverzekering hebben lopen. We raden jullie aan de annuleringsnota daar in te dienen. Wij wensen jouw moeder veel beterschap en een spoedig herstel! ^Jessica\n",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9985018968582153,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR4NXJiRDlBRRAB",
@@ -16223,7 +16223,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996078610420227,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNDc0ttZkJREAE",
@@ -16377,7 +16377,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9980302453041077,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNzOExhUi1nRRAB",
@@ -16454,7 +16454,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9936216473579407,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURncTd5UjlBRRAB",
@@ -16509,7 +16509,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996389150619507,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURndlBtVlFBEAE",
@@ -16707,7 +16707,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991602897644043,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURnNVB2cW13RRAB",
@@ -16740,7 +16740,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9095242023468018,
-      "topic_nr": 4.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURnd19fZlBBEAE",
@@ -16784,7 +16784,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995825886726379,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURnajZDUUdBEAE",
@@ -16927,7 +16927,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9995205402374268,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN5cnViSXJBRRAB",
@@ -17081,7 +17081,7 @@
       "replyComment": "Hoi Harm,\n\nFijn om te lezen dat je het SterrenStrand leuk hebt gevonden. Bedankt voor je feedback, dit zal ik intern bespreken. Kun je me vertellen waar op tafel je de menukaart miste? Ik hoor het graag. ^Michelle",
       "sentiment_label": "Negative",
       "sentiment_score": 0.7753995656967163,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURVek96dUxBEAE",
@@ -17246,7 +17246,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9983324408531189,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURrNjg2aTJnRRAB",
@@ -17323,7 +17323,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996676445007324,
-      "topic_nr": 1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMwOE0yU2N3EAE",
@@ -17367,7 +17367,7 @@
       "replyComment": "Hi Mark,\nBedankt voor deze mooie review! Dit zien wij graag. Wat leuk dat jullie er voor kiezen om terug te keren naar TerSpegelt. Graag tot ziens! ^Michelle",
       "sentiment_label": "Positive",
       "sentiment_score": 0.999721348285675,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURVdi03ZUh3EAE",
@@ -17510,7 +17510,7 @@
       "replyComment": "Vielen Dank für diese Bewertung. Vielen Dank auch für die Komplimente zum SterrenStrand und zum Badesee. Wir hoffen, Sie in unserem Park wiederzusehen! ^Juultje",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9746841192245483,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMydDl1WXBBRRAB",
@@ -17521,7 +17521,7 @@
       "replyComment": "Bedankt voor het achterlaten van deze review. Ook bedankt voor de vele complimenten over ons park. Fijn dat de nieuwe chalet in de smaak viel bij jullie. Leuk om te horen dat de kinderen genoten hebben van het zwembad en het SterrenStrand! Hopelijk zien we jullie nog een keertje terug voor LekkerVakantie bij TerSpegelt! ^Juultje",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996209144592285,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMybF8yaVhnEAE",
@@ -17554,7 +17554,7 @@
       "replyComment": "Bedankt voor het achterlaten van deze review en de complimenten over ons SterrenStrand en Zwembad. Hopelijk tot een volgende keer! ^Juultje",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995393753051758,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMycDR5WjdBRRAB",
@@ -17587,7 +17587,7 @@
       "replyComment": "Bedankt voor het achterlaten van deze review. Ook bedankt voor de complimenten over ons sanitair en onze voorzieningen. Wij proberen het aantal auto's op ons park te beperken. Helaas is het verbieden van auto's op het park (nog) niet mogelijk. Wat jammer dat onze medewerkers niet enthousiast genoeg over kwamen. Wij zullen dit zeker terugkoppelen. Wij hopen je toch nog een keertje terug te zien bij TerSpegelt! ^Juultje",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9792900085449219,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMyNjdTT0RBEAE",
@@ -17598,7 +17598,7 @@
       "replyComment": "Bedankt voor het achterlaten van deze review! Hopelijk zien we jullie nogmaals terug op ons park. ^Juultje",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9974219799041748,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMyZzdEX3FBRRAB",
@@ -17686,7 +17686,7 @@
       "replyComment": "Vielen Dank für Ihre Bewertung! Wir hoffen, Sie in unserem Park wiederzusehen! ^Juultje",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9560880064964294,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMyb2FYYURnEAE",
@@ -17895,7 +17895,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9990849494934082,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN3MXZpSXR3RRAB",
@@ -17994,7 +17994,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994680285453796,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNnZzk3VUJREAE",
@@ -18093,7 +18093,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995924830436707,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRbnNXWWJ3EAE",
@@ -18104,7 +18104,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9922351241111755,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNBc2FQWUxnEAE",
@@ -18170,7 +18170,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.6177055239677429,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNvNTRHczl3RRAB",
@@ -18313,7 +18313,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995926022529602,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNJX01Ldk9BEAE",
@@ -18390,7 +18390,7 @@
       "replyComment": "Vielen Dank für die 5 Sterne und das Kompliment uber das SterrenStrand. Das macht uns glücklich! ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9975486397743225,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNKNlltYkxBEAE",
@@ -18423,7 +18423,7 @@
       "replyComment": "Thank you for the compliments on our restaurant and our SterrenStrand! hopefully we can welcome you again soon. ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995551705360413,
-      "topic_nr": 8.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUR4eDU3QVJBEAE",
@@ -18445,7 +18445,7 @@
       "replyComment": "Thank you for the 5 stars and the compliments on the SterrenStrand, indoor pool and service! ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9985103011131287,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURVc3N1NHRRRRAB",
@@ -18478,7 +18478,7 @@
       "replyComment": "Hallo Bianka, wie schön, dass Sie SterrenStrand besucht haben und dass es für die Kinder ein tolles Erlebnis war. Die Temperaturen am SterrenStrand schwanken, weil es ein Gewächshaus ist, aber wenn die Sonne nicht scheint, ist es immer um die 20 Grad. Ich hoffe, wir sehen uns bald wieder! ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9204129576683044,
-      "topic_nr": 4.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN4OVlHLUt3EAE",
@@ -18522,7 +18522,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.996788501739502,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURScjlPbUVREAE",
@@ -18599,7 +18599,7 @@
       "replyComment": "Wie schön zu hören, dass Ihnen der private Sanitärplatz gefallen hat. Danke für die Komplimente über unser Restaurant, den SterrenStrand und den Freizeitsee. Das macht uns glücklich! ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995484948158264,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNSXzhYbkZnEAE",
@@ -18753,7 +18753,7 @@
       "replyComment": "Wie schön zu hören, wir freuen uns darauf, Sie wiederzusehen!^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996565580368042,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNSM2VTcUJBEAE",
@@ -18797,7 +18797,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9920513033866882,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURoOGVtYlhnEAE",
@@ -18808,7 +18808,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994133710861206,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURDMk5UdkRnEAE",
@@ -18819,7 +18819,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991996884346008,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURDeUx5NVdREAE",
@@ -19204,7 +19204,7 @@
       "replyComment": "Was für ein schönes Kompliment über unseren SterrenStrand. Vielen Dank dafür! Hoffentlich sehen wir Sie beim nächsten Mal wieder bei TerSpegelt ^Stephanie",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9992542862892151,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNabHBpWDFBRRAB",
@@ -19226,7 +19226,7 @@
       "replyComment": "Hallo Karin, danke für deine positive Bewertung! Schön zu hören, dass deine Kinder eine tolle Zeit bei TerSpegelt hatten! ^Sterre",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9986686706542969,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNaMHQzQl9nRRAB",
@@ -19523,7 +19523,7 @@
       "replyComment": "Hoi Bart, dit is toch hoe je de zomeravonden wil doorbrengen! Leuk om deze foto te mogen ontvangen. ^Stephanie",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996964931488037,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM3MFBYejJnRRAB",
@@ -19567,7 +19567,7 @@
       "replyComment": "Vielen Dank für die Komplimente über unseren SterrenStrand und seine Hygiene. Hoffentlich werden Sie bald wieder kommen. ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9978692531585693,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURiemFtbmFnEAE",
@@ -19589,7 +19589,7 @@
       "replyComment": "Dankjewel voor je 5-sterren review Jeanine! ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996514320373535,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURibUxuSHFBRRAB",
@@ -19765,7 +19765,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9841588735580444,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNxdDdEMHpBRRAB",
@@ -19820,7 +19820,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996596574783325,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNxM2Ffbm13RRAB",
@@ -19842,7 +19842,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9969877600669861,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNxaGJXNmJREAE",
@@ -19963,7 +19963,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995386600494385,
-      "topic_nr": -1.0
+      "topic_nr": 0.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNBMDVIUnpRRRAB",
@@ -20271,7 +20271,7 @@
       "replyComment": "Bedankt voor de 5 sterren Marco!",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995669722557068,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM4d2ZlRDJBRRAB",
@@ -20458,7 +20458,7 @@
       "replyComment": "Danke für Ihre Bewertung Edith. Konnten Sie bitte die Rezeption kontaktieren (info@terspegelt.nl) über die Probleme aus dem Stellplatz und der Services morgens. Danke schön. Kristel | Ferienpark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.5177852511405945,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURBeWRlYW53RRAB",
@@ -20513,7 +20513,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991623163223267,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNBNk9uNnd3RRAB",
@@ -20700,7 +20700,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993997812271118,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNpMlBES29RRRAB",
@@ -20777,7 +20777,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9989511966705322,
-      "topic_nr": 4.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURDX3ZMemZREAE",
@@ -20887,7 +20887,7 @@
       "replyComment": "Hi Paula, bedankt voor de mooie complimenten over onze sanitaire voorzieningen. Op onze park is er inderdaad een snelheid toegestaan van 10 km/u om zo de veiligheid te waarborgen. Wij wijzen onze gasten hier zoveel mogelijk op en vragen ook om verantwoordelijk om te gaan met een elektrische step. Wat jammer om te horen dat je niet helemaal tevreden bent over ons animatieteam. Zou je misschien wat meer kunnen vertellen over wat je ervaring hierbij precies was? Wij staan namelijk altijd open voor feedback, zodat we dit eventueel in de toekomst kunnen verbeteren. ^Anna",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9996627569198608,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR1akttRDdnRRAB",
@@ -21096,7 +21096,7 @@
       "replyComment": "Vielen Dank Katrin!!",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9983092546463013,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR3M0tlaW53RRAB",
@@ -21107,7 +21107,7 @@
       "replyComment": "Bedankt voor de mooie beoordeling Marc. ^Sanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995926022529602,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM0dU5LMGdnRRAB",
@@ -21129,7 +21129,7 @@
       "replyComment": "Hi Erik,\nBedankt voor de 5-sterren, en wat fijn om te horen dat jullie je zo vermaakt hebben. ^Sanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9976574182510376,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM0cUxUcXdRRRAB",
@@ -21162,7 +21162,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9620236754417419,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUM0NElYY0RREAE",
@@ -21195,7 +21195,7 @@
       "replyComment": "Georg W,\n\nVielen Dank Für Ihren Bericht. Es tut uns leid zu hören. Wir werden es intern besprechen, damit wir nach einer lösung suchen können.\n\nNochmals vielen Dank für die Meldung. Sobald ich internes Feedback erhalten habe, melde ich mich gerne bei Ihnen.\n\nKristel | Ferienpark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9843272566795349,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURZajh1TGZREAE",
@@ -21217,7 +21217,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994300007820129,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURZdmZQZUFnEAE",
@@ -21789,7 +21789,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9959282279014587,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUM2czVDdURREAE",
@@ -21976,7 +21976,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995287656784058,
-      "topic_nr": 1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNpNUpPOWtRRRAB",
@@ -22218,7 +22218,7 @@
       "replyComment": "Thank you for the 5 stars, we love hearing that! ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996272325515747,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN4bXVPaHVBRRAB",
@@ -22339,7 +22339,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993767142295837,
-      "topic_nr": -1.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNxdnZuVmNBEAE",
@@ -22394,7 +22394,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993404746055603,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNxNXFIdHJ3RRAB",
@@ -22471,7 +22471,7 @@
       "replyComment": "Wauw wat een leuke foto's en een mooie review! Bedankt daarvoor Renee! We zien jullie graag nog eens terug op TerSpegelt. ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996432065963745,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNxMVBHdlRREAE",
@@ -22713,7 +22713,7 @@
       "replyComment": "Bedankt voor de 5-sterren Harry! ^Sanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994778037071228,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURKOE1IX1N3EAE",
@@ -22878,7 +22878,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996719360351562,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN3bks3di1nRRAB",
@@ -22977,7 +22977,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.995935320854187,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURRejRmVkRnEAE",
@@ -22999,7 +22999,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993539452552795,
-      "topic_nr": -1.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRcVpMRlF3EAE",
@@ -23043,7 +23043,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996457099914551,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURBemVydDB3RRAB",
@@ -23164,7 +23164,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995926022529602,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURRM05QUk1REAE",
@@ -23274,7 +23274,7 @@
       "replyComment": "Wir freuen uns sehr über diese bewertung, miriam. Wir finden es toll, dass du eine so tolle zeit hattest und werden deine tipps auf jeden fall berücksichtigen. Danke! 🤩^Scott ",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9965819716453552,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnTURJeGVleVNnEAE",
@@ -23560,7 +23560,7 @@
       "replyComment": "Fijn dat je hebt genoten, hopelijk tot ziens! ^Scott",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9992805123329163,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xWZmJXUnVTVXhFWkVaUE5HcFNOMUY0UzNCRE9WRRAB",
@@ -23901,7 +23901,7 @@
       "replyComment": "Beste Judith,\nWat fijn om te horen dat jullie je zo vermaakt hebben op ons park. Goed dat de kinderen zich zo vermaakt hebben :) Daar doen we het voor! Hopelijk zien we jullie nog een keertje terug. ^Sanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996957778930664,
-      "topic_nr": 1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM0Mk9yTThRRRAB",
@@ -24088,7 +24088,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.999630331993103,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRN2IzYmNBEAE",
@@ -24176,7 +24176,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.8513845801353455,
-      "topic_nr": 6.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURRb0p6dlh3EAE",
@@ -24605,7 +24605,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9983837604522705,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURLaUlDTnJRRRAB",
@@ -24825,7 +24825,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9918200969696045,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNBcFlXdDl3RRAB",
@@ -25067,7 +25067,7 @@
       "replyComment": "Beste Hans,\nWat vervelend om te lezen dat jullie het verblijf zo ervaren hebben. We zouden graag met jullie in contact komen hierover. Zou je een e-mail willen sturen naar info@terspegelt.nl? Alvast bedankt! ^Sanne",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9997431635856628,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURZbk1URVJBEAE",
@@ -25144,7 +25144,7 @@
       "replyComment": "Bedankt Sven! Wat fijn om te horen dat jullie bezoek aan TerSpegelt perfect was :). Hopelijk zien we jullie snel nog eens terug. ^Kristel",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994860887527466,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURZLU9TaDRnRRAB",
@@ -25342,7 +25342,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995976090431213,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRdThLR0RBEAE",
@@ -25452,7 +25452,7 @@
       "replyComment": "Gutentag,\n\nVielen Dank für die Bewertung, Komplimente und Kommentare.\nIch werde dies intern melden. Hoffentlich sehen wir uns in Zeiten ohne Korona.\n\nKristel | Ferienpark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9871492981910706,
-      "topic_nr": -1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUQ4OWJqeWxBRRAB",
@@ -25595,7 +25595,7 @@
       "replyComment": "Beste Claudia, allereerst bedankt voor de terugkoppeling. Wat vervelend om te lezen dat je bezoek aan TerSpegelt niet op alle vlakken aan je verwachtingen heeft voldaan/ze heeft overtroffen. Wat betreft het online bestellen, er was dat moment een storing waardoor niet alle velden juist in het systeem stonden. Dit hebben we zo snel mogelijk proberen op te lossen, onze excuses voor het ongemak! Wat betreft de pannenkoeken en het recreatieprogramma, dit zullen wij terugkoppelen naar de juiste afdeling zodat zij dit kunnen bekijken en indien mogelijk verbeteren. Het klopt trouwens dat de familiedag deze keer gebaseerd was op “voetbal”. Dit vanwege het EK dat eigenlijk plaats zou vinden nu. Deze familiedagen wisselen van thema en dus van spellen, mochten jullie nog eens terug komen naar TerSpegelt hopelijk dan een ander thema die jullie meer aanspreekt! Hopelijk hebben jullie ondanks alles toch kunnen genieten van jullie vakantie bij TerSpegelt. Mochten jullie nog aanvullende terugkoppeling hebben, horen wij het heel graag. ^Merel",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9847766160964966,
-      "topic_nr": 1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM4Xy1yRy1nRRAB",
@@ -25749,7 +25749,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991245865821838,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURBbnVhTjRBRRAB",
@@ -25969,7 +25969,7 @@
       "replyComment": "Wat fijn dat jullie hebben genoten van een weekje LekkerVakantie op onze camping! Wat jammer dat de afstand tussen de huurcaravans wat minder is bevallen. Jullie hebben een caravan op de seizoenscamping gehuurd, wij verhuren ook andere accommodaties op het park met meer ruimte eromheen. Hopelijk zien we jullie weer eens terug op TerSpegelt ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997400641441345,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURxNEtQT0NREAE",
@@ -25980,7 +25980,7 @@
       "replyComment": "Hi Frank, dank je wel voor deze mooie complimenten. Wat fijn om te horen dat jullie ondanks de corona maatregelen hebben genoten van LekkerVakantie op TerSpegelt! Graag tot ziens! ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994266033172607,
-      "topic_nr": 1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURxNEpYYzF3RRAB",
@@ -26013,7 +26013,7 @@
       "replyComment": "Hi Gina, bedankt voor het mooie compliment over onze camping, de sanitaire voorzieningen en de omgeving. Wat vervelend om te lezen dat het restaurant niet goed is bevallen. Zou je kunnen aangeven wat er niet naar wens is geweest? We zouden je feedback graag ontvangen op info@terspegelt.nl zodat wij dit in de toekomst kunnen verbeteren. Bedankt alvast voor je reactie! ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995684027671814,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNxcjV2bFlREAE",
@@ -26486,7 +26486,7 @@
       "replyComment": "Danke schön für Ihren bewertung Tanja. Ich hoffe, wir sehen uns nächstes Jahr! Und dann bei strahlendem Wetter. Kristel | Ferienpark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9967293739318848,
-      "topic_nr": -1.0
+      "topic_nr": 0.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM0dzhxY3FnRRAB",
@@ -26585,7 +26585,7 @@
       "replyComment": "Hi Bram, dankjewel voor deze review. Wij organiseren geen feesttent of muziek omdat dit niet bij de doelgroep van TerSpegelt past. Wij hebben activiteiten tot en met 16 jaar, zodat de oudere kinderen ook leuke activiteiten kunnen volgen. Denk hierbij aan BandRaften, Tokkelen, Blobben en een Dropping. Het weer zat ons allemaal niet mee afgelopen tijd waardoor het inderdaad wat drukker kan zijn in het zwembad. Wat betreft de nachtwacht, om 11 uur is er nachtrust op het park. De nachtwacht zorgt ervoor dat dit ook gewaarborgd wordt, zodat alle gasten in rust van hun vakantie kunnen genieten. Hopelijk heb je ondanks dit toch nog een leuke vakantie gehad op ons park! ^Maud",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9996278285980225,
-      "topic_nr": 6.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNwazdYQjBRRRAB",
@@ -26629,7 +26629,7 @@
       "replyComment": "Wauw; 5 sterren! Dankjewel daarvoor en voor de complimenten over ons personeel. Dat maakt ons heel blij Willem. Graag tot ziens. ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996706247329712,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNwLVl5eDZ3RRAB",
@@ -26640,7 +26640,7 @@
       "replyComment": "Hi Skye, we try to give all animation in 3 languages. You can always ask if they want to explain it in your language. Then you'll figure it out together! It's unfortunate that it wasn't good enough for you, hopefully you can give us a 2nd chance and we will be happy to welcome you again. ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9982044696807861,
-      "topic_nr": -1.0
+      "topic_nr": 0.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNwa1p1ODJBRRAB",
@@ -26706,7 +26706,7 @@
       "replyComment": "Hallo Marc, wie schön, dass es Ihnen bei TerSpegelt gefallen hat! Vielen Dank für die ausführliche Bewertung und die Komplimente über das Personal, die Einrichtungen und die Aktivitäten! Es freut uns zu hören, dass Sie einen gelungenen Urlaub hatten und hoffentlich können wir Sie wieder bei TerSpegelt begrüßen. ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991078972816467,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNwd29pUDZBRRAB",
@@ -26717,7 +26717,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9996009469032288,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNwdkxULWZREAE",
@@ -27003,7 +27003,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9988054037094116,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURDNlBxdkV3EAE",
@@ -27014,7 +27014,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994550347328186,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURDc095VElREAE",
@@ -27080,7 +27080,7 @@
       "replyComment": "Hi Rouven, danke für die 5 sterne. Sehr schöne bilder! ^Isabella",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993072748184204,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNDMjdhM2VBEAE",
@@ -27432,7 +27432,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.852910041809082,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURRaU5qS25nRRAB",
@@ -27575,7 +27575,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.8318856954574585,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURRa2RUVWZBEAE",
@@ -27740,7 +27740,7 @@
       "replyComment": "\nHi Tjeerd, wat jammer dat je bezoek aan onze zwemfaciliteiten niet helemaal goed is bevallen. Binnen in ons overdekt zwembad en SterrenStrand wordt alles heerlijk verwarmd. Het water uit het SterrenStrand wordt daarentegen niet verwarmd, aangezien dit natuurwater is. Hierdoor kan het water in het laagseizoen als kouder worden ervaren vanwege de buitentemperaturen. Hopelijk zien we jullie toch nog eens terug op TerSpegelt! ^Lieke\n",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9997561573982239,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMtaXJxaE93EAE",
@@ -27894,7 +27894,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995602965354919,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNndlpHd253RRAB",
@@ -27993,7 +27993,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9997302889823914,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNReGFEZVpnEAE",
@@ -28092,7 +28092,7 @@
       "replyComment": "Erg vervelend om te horen hoe dit is gelopen. Normaal gesproken laten wij (potentiële) gasten zeker even een kijkje nemen, we spreken dan af dat ze zich een uurtje later weer melden. Helaas is deze manier van werken nodig omdat er erg veel misbruik gemaakt wordt van \"even een kijkje nemen\". Onze oprechte excuses als dit bij jullie verkeerd is ingeschat. Mochten jullie ons nog een kans geven wil ik vragen even contact op te nemen met info@terspegelt.nl. Bedankt ^Kristel",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9996751546859741,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNhdmZ5RmJnEAE",
@@ -28147,7 +28147,7 @@
       "replyComment": "Wauw wat een mooie review! Bedankt daarvoor Jacques. Hopelijk zien we jullie snel weer eens terug bij Recreatiepark TerSpegelt! ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996088147163391,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNhLVlPSUxBEAE",
@@ -28323,7 +28323,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995693564414978,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURheXJhdlhBEAE",
@@ -28367,7 +28367,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993208646774292,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNhNnF5V1lBEAE",
@@ -28422,7 +28422,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995071887969971,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURxNV9YcDlRRRAB",
@@ -28554,7 +28554,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995825886726379,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR3MkkyUnFnRRAB",
@@ -28697,7 +28697,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.999498724937439,
-      "topic_nr": -1.0
+      "topic_nr": 0.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNBbUt5WGZBEAE",
@@ -28774,7 +28774,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9966495633125305,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNldExDZXJ3RRAB",
@@ -28807,7 +28807,7 @@
       "replyComment": "Hi Ruud, bedankt voor de mooie complimenten over onze plekken en de faciliteiten. Daar worden wij altijd blij van. Hopelijk zien we je nog eens terug op Recreatiepark TerSpegelt! ^Lieke",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996123909950256,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNlaEp1UnJnRRAB",
@@ -28840,7 +28840,7 @@
       "replyComment": "Hi Tavita, bedankt voor de mooie complimenten. Hopelijk mogen we je volgend jaar nogmaals verwelkomen bij ons op het park! ^Lieke",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995824694633484,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURPM2JxNGF3EAE",
@@ -28994,7 +28994,7 @@
       "replyComment": "Hallo @spookymatch, bedankt voor je terugkoppeling. Fijn om te horen dat je het vernieuwde zwembad mooi vindt! Wel erg jammer om te horen dat je vond dat er niet veel te doen is op het park. Kan je me vertellen wat je miste? Tips zijn altijd welkom namelijk! Ook je opmerking over de app nemen we mee. Nogmaals bedankt! Hopelijk zien we je terug op TerSpegelt. ^Kristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9990266561508179,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNVMVkzbW9RRRAB",
@@ -29038,7 +29038,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996559619903564,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNVNWRpU1d3EAE",
@@ -29104,7 +29104,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9993746876716614,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNVcWF2ZUtBEAE",
@@ -29159,7 +29159,7 @@
       "replyComment": "Vielen Dank für Ihre nette Bewertung! ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996058344841003,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUREeExISHJ3RRAB",
@@ -29170,7 +29170,7 @@
       "replyComment": "Dankjewel voor deze mooie review Wendy. Hopelijk zien we jullie nog eens terug op ons park. ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996004700660706,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUREbVBIMGFnEAE",
@@ -29225,7 +29225,7 @@
       "replyComment": "Dankjewel voor deze 5-sterren review! ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997178912162781,
-      "topic_nr": -1.0
+      "topic_nr": 0.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNEaV8yQnVBRRAB",
@@ -29258,7 +29258,7 @@
       "replyComment": "Wie schön, dass Sie die Kinder mit einem Urlaub in TerSpegelt überrascht haben. Es tut uns leid zu hören, dass Sie wegen der Kälte in unserer WaterLodge früher abgereist sind. Unser Kollege an der Rezeption hätte Ihnen gerne geholfen, indem er Ihnen eine zusätzliche Heizung oder Decken zur Verfügung gestellt hätte. Wir hätten gerne gewusst, dass Sie abreisen, da wir dies bei der Überprüfung der Schlüssel herausgefunden haben. Natürlich sehen wir es nicht gerne, wenn ein Gast vorzeitig abreisen möchte, und vielleicht hätten wir gemeinsam nach einer Lösung suchen können. Es freut uns zu hören, dass Sie Ihren Aufenthalt in TerSpegelt für einen Tag genossen haben und dass Sie unserem Park immer noch sehr positiv gegenüberstehen. Wir hoffen, dass wir Sie trotz dieser Erfahrung zu einem anderen Zeitpunkt in TerSpegelt wiedersehen und Ihnen eine zweite Chance geben können. ^Quinty",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9747655391693115,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURzOXNpVFlBEAE",
@@ -29335,7 +29335,7 @@
       "replyComment": "Beste Connie, erg leuk om te horen dat we nog steeds aan de verwachtingen voldoen. Bedankt voor dit review en hopelijk mogen we je in de toekomst nog eens verwelkomen op ons park! ^Stephanie",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996901750564575,
-      "topic_nr": -1.0
+      "topic_nr": 0.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUR0aW92aUdBEAE",
@@ -29500,7 +29500,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996461868286133,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNvNE9LeVlBEAE",
@@ -29511,7 +29511,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995926022529602,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURJdnJmTEpnEAE",
@@ -29599,7 +29599,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996011853218079,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN3bU0zZXlnRRAB",
@@ -29797,7 +29797,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9829573035240173,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNReXRLeUNREAE",
@@ -30116,7 +30116,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9974804520606995,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNZbjVtaGZnEAE",
@@ -30160,7 +30160,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993311166763306,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNZbDVhdk9REAE",
@@ -30204,7 +30204,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9909215569496155,
-      "topic_nr": 4.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNZcC1EaXF3RRAB",
@@ -30710,7 +30710,7 @@
       "replyComment": "Wauw 5 sterren! Bedankt Rianne. Goed om te horen dat jullie zo tevreden zijn. Wat betreft de accommodatie, misschien voor een eventueel volgende keer eens kijken naar de LoungeLodge? Misschien wat voor jullie! Voor nu bedankt voor de terugkoppeling en hopelijk tot ziens.\n\nKristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9983250498771667,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNDZ3I3dnFnRRAB",
@@ -30787,7 +30787,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9883536100387573,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNDakpLMjJnRRAB",
@@ -30875,7 +30875,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.7115349173545837,
-      "topic_nr": -1.0
+      "topic_nr": 0.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNDc05ha1dnEAE",
@@ -30897,7 +30897,7 @@
       "replyComment": "Hoi Mark, wat goed om te lezen dat jullie zo genoten hebben. Bedankt voor deze mooie review en complimenten! Tot volgend jaar bij TerSpegelt! ^Merel",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996911287307739,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNDZ0ktYzZ3RRAB",
@@ -31018,7 +31018,7 @@
       "replyComment": "Hallo Ralf, wow, der beste Campingplatz aller Zeiten. Was für schöne Worte, das macht uns glücklich. Hoffentlich sehen wir Sie in unserem Ferienpark wieder! ^Lieke",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9963036775588989,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURlOGFXcmJnEAE",
@@ -31161,7 +31161,7 @@
       "replyComment": "Bedankt voor jullie mooie review! Wat fijn om te horen dat jullie zo genoten hebben van de nieuwe chalets en de goede service. We waarderen jullie positieve woorden en zien jullie graag nog eens terug voor een relaxte vakantie! ^Scott",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997286200523376,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VNT0NpZi1yc0ltNFNnEAE",
@@ -31425,7 +31425,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.999671220779419,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNBenFxR0V3EAE",
@@ -31634,7 +31634,7 @@
       "replyComment": "Hi Thijmen,\nWat leuk dat je zo enthousiast bent over ons SterrenStrand en zwembad. Bedankt voor deze review en graag tot ziens! ^Michelle",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995286464691162,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMwOS0tcHB3RRAB",
@@ -31810,7 +31810,7 @@
       "replyComment": "Schöne Fotos Sebastian! Danke für diese nette Bewertung und Ihre Komplimente über der SterrenStrand, Radcross-Strecke, PumpTrack und das Freizeitprogramm. Wer weiß, vielleicht sehen wir Sie nochmals bei uns im Ferienpark TerSpegelt wieder. ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.951641857624054,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURPa0xXejB3RRAB",
@@ -31898,7 +31898,7 @@
       "replyComment": "Hi Inger, wat vervelend om te horen. Ik heb dit even besproken met mijn collega's van de receptie. Zij geven aan dat wij het hele weekend volgeboekt waren, dus dat er (volgens onze planning) geen plekjes meer vrij zouden moeten zijn. Zouden jullie ons willen laten weten over welke plek het gaat? Dus welke er het hele weekend vrij is geweest? Dan kunnen wij even checken in de planning of deze mensen misschien niet zijn komen opdagen oid. Alvast heel erg bedankt. ^Kristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9988260865211487,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChRDSUhNMG9nS0VJQ0FnSURrNkljSRAB",
@@ -31997,7 +31997,7 @@
       "replyComment": "Bedankt voor het achterlaten van deze review! Hopelijk mogen wij je nogmaals verwelkomen op ons park! ^Juultje",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995825886726379,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNPdVlHQlhBEAE",
@@ -32074,7 +32074,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993060827255249,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNZMnUzVUZREAE",
@@ -32107,7 +32107,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993487000465393,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNZZ3RITlNnEAE",
@@ -32261,7 +32261,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9959115982055664,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMwMTdqQnV3RRAB",
@@ -32272,7 +32272,7 @@
       "replyComment": "Hallo Daniel,\nEs tut mir viel Spaß zu lesen dass, Ihre Besuch am SterrenStrand gut gefallen ist. Gut zu lesen dass Sie haben genossen. Danke für diese Rezension und gerne bis Bald! ^Michelle",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995520710945129,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNzd3Z2LTZRRRAB",
@@ -32283,7 +32283,7 @@
       "replyComment": "Hi Pates, goed om te horen dat het SterrenStrand in de smaak valt! En de ZwemPlas is met het warme weer inderdaad erg fijn. Ideaal dat je dat met je abonnement ook kunt bezoeken. ^Anouk",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993399977684021,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1bU8tc3FRRRAB",
@@ -32294,7 +32294,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9979972243309021,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1eUxXVVh3EAE",
@@ -32327,7 +32327,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9969730377197266,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNPX3MzYjNnRRAB",
@@ -32481,7 +32481,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995825886726379,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNRNXByV2ZnEAE",
@@ -32591,7 +32591,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996802806854248,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNRMmREbS1nRRAB",
@@ -32932,7 +32932,7 @@
       "replyComment": "Sehr geehrte Stephanie,\n\nWie schön zu hören, dass Sie unseren Campingplatz so familienfreundlich finden und dass Sie mit dem Angebot an Aktivitäten zufrieden sind. Wie ärgerlich zu hören, dass Ihr Auto beschädigt wurde. Es ist in der Tat nicht erlaubt, die Autos auf dem Platz zu parken. Es ist aber beabsichtigt, dass die Autos auf den dafür ausgewiesenen Parkplätzen sicher sind. Haben Sie damals einen Bericht an der Rezeption gemacht? Wieder einmal finden wir es sehr ärgerlich für Sie. Ich würde gerne von Sie hören.\n\nSanne | Ferienpark TerSpegelt",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9613954424858093,
-      "topic_nr": -1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUM0aFlPTkxBEAE",
@@ -33042,7 +33042,7 @@
       "replyComment": "Beste Leo, wat jammer om te horen dat het jullie is tegengevallen! Mag ik vragen wat jullie tegenviel wat betreft de veranderingen op het park? We horen het heel graag. Nogmaals erg jammer, we hadden jullie heel graag teruggezien op het park. Kristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9997562766075134,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUM0enR1UUl3EAE",
@@ -33394,7 +33394,7 @@
       "replyComment": "Hallo Jeanette, wat vervelend om te horen dat je het slecht vond. Ben je bij SterrenStrand of bij de zwemplas geweest? En wat vond je er precies slecht aan? We horen je mening heel graag, zodat we kunnen kijken wat we eraan kunnen doen. Alvast bedankt voor de terugkoppeling. Kristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Negative",
       "sentiment_score": 0.999679446220398,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNVMHBTeUh3EAE",
@@ -33460,7 +33460,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.994450569152832,
-      "topic_nr": 4.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNVeE1EeXlBRRAB",
@@ -33526,7 +33526,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9996939897537231,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURrdjV2cXNnRRAB",
@@ -33570,7 +33570,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996658563613892,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURVdkluSTZnRRAB",
@@ -33614,7 +33614,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9870108366012573,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURVNU9YRjNRRRAB",
@@ -33746,7 +33746,7 @@
       "replyComment": null,
       "sentiment_label": "Negative",
       "sentiment_score": 0.9797113537788391,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNVNzV1OGdRRRAB",
@@ -33779,7 +33779,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995765089988708,
-      "topic_nr": -1.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNnN2NxblhREAE",
@@ -34065,7 +34065,7 @@
       "replyComment": "Hi Pierre, bedankt voor het compliment over ons schone park! Vervelend om te horen dat je de auto niet netjes kon wegzetten. Was dit vanwege gebrek aan ruimte of omdat auto's zelf niet helemaal lekker geparkeerd stonden? ^Stephanie\n",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9932971596717834,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM3eF9UWjNBRRAB",
@@ -34087,7 +34087,7 @@
       "replyComment": "Hi Sebastiaan, goed om te lezen dat jullie zo hebben genoten van jullie verblijf. We gaan in de toekomst meer faciliteiten toevoegen om het nog toegankelijker te maken. Hopelijk mogen we jullie nog eens verwelkomen! ^Stephanie",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991915822029114,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUM3NVlhR1FnEAE",
@@ -34120,7 +34120,7 @@
       "replyComment": "Schöne Fotos von Ihrem Aufenthalt in unserem Ferienpark. Vielen Dank für diese schöne 5-Sterne-Bewertung. Wir hoffen, Sie in Zukunft wieder begrüßen zu dürfen! ^Stephanie",
       "sentiment_label": "Positive",
       "sentiment_score": 0.502119243144989,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM3enF5dGd3RRAB",
@@ -34219,7 +34219,7 @@
       "replyComment": "Beste Naomi, allereerst bedankt voor je uitgebreide review. Wat vervelend om te horen dat jullie niet voldoende rust hebben gehad tijdens jullie verblijf. Mag ik vragen om even contact op te nemen met onze receptie om dit allemaal te bespreken? Dit kan via info@terspegelt of 0497-512016. Alvast ontzettend bedankt en bij deze alvast onze excuses voor de overlast. ^Kristel | Recreatiepark TerSpegelt",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9982361793518066,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNPZ2J1TTFRRRAB",
@@ -34230,7 +34230,7 @@
       "replyComment": "Es tut uns leid, dass Sie von unserem Service enttäuscht waren. Sie haben ursprünglich für 2021 gebucht. Wir haben die Reservierung coronabedingt auf 2022 umgebucht und freuen uns, Sie jetzt ohne Maßnahmen bei uns begrüßen zu dürfen! Sie können jetzt aufgrund anderer Umstände nicht kommen und aus Nachsicht haben wir Ihnen angeboten, die Reservierung innerhalb des Jahres 2022 zu verschieben. Wie bereits erwähnt, können wir diese Option bis zu 1 Woche vor Anreise anbieten. Am 10. Juni (5 Tage vor Anreise) gab er mit 'bitte um 8 wochen verschieben' an, dass er die Reservierung um 8 Wochen verschieben wolle. Leider dürfen wir innerhalb von 1 Woche vor Anreise keinen kostenfreien Umzug mehr anbieten. Wir sind davon überzeugt, dass wir den richtigen Service erbracht haben, erwarten jedoch nicht, dass wir Ihre Erfahrung ändern können. ^Juultje",
       "sentiment_label": "Negative",
       "sentiment_score": 0.8434866666793823,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNPaVlfMXBBRRAB",
@@ -34307,7 +34307,7 @@
       "replyComment": "Beste Frank, bedankt voor de terugkoppeling. Wij zitten nog in een testfase wat betreft de betalingen.. Wij hechten veel waarde aan dit soort reviews. Ik zal je opmerking doorgeven aan de afdeling. Hopelijk hebben jullie toch een leuke vakantie gehad op ons park en mogen wij jullie nog een keer verwelkomen! ^Juultje",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9993578791618347,
-      "topic_nr": -1.0
+      "topic_nr": 2.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNPX05UQXVRRRAB",
@@ -34373,7 +34373,7 @@
       "replyComment": "Beste Nicole, bedankt voor het achterlaten van deze mooie review. Hopelijk zien we jullie nog een keertje terug op ons park! ^Juultje",
       "sentiment_label": "Positive",
       "sentiment_score": 0.999527096748352,
-      "topic_nr": -1.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQycjhlaEpnEAE",
@@ -34406,7 +34406,7 @@
       "replyComment": "Danke für diese nette Bewertung und Ihre Komplimente über unser Campingplatz und das Personal. Hoffentlich sehen wir Sie in unserem Ferienpark wieder. ^Juultje",
       "sentiment_label": "Positive",
       "sentiment_score": 0.999612033367157,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQybTZ5SElnEAE",
@@ -34417,7 +34417,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9993447661399841,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQyaV9DTFhnEAE",
@@ -34428,7 +34428,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.5335354208946228,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ4XzhURmFBEAE",
@@ -34461,7 +34461,7 @@
       "replyComment": "Hi Ellianna, thank you for this nice review! How nice to hear that you have enjoyed everything that is present on and around TerSpegelt. From our beaches to the surrounding area. We look forward to seeing you again. ^Merel",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997088313102722,
-      "topic_nr": 11.0
+      "topic_nr": 12.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ4bjd6d1pBEAE",
@@ -34615,7 +34615,7 @@
       "replyComment": "Hi Mike, bedankt voor je review met deze complimenten. Wat vervelend om te lezen dat je enkelband is afgescheurd. Hopelijk geneest het snel! Zien we je ondanks dat nog eens terug op de PumpTrack bij TerSpegelt? ^Merel",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996707439422607,
-      "topic_nr": -1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ4ODdTY0x3EAE",
@@ -34681,7 +34681,7 @@
       "replyComment": "Dear Martin, thank you for your review. The Keizer is indeed close to the natuurpoort and is a place where you can just walk in with your walking shoes. Nice that you enjoyed a coffee at our restaurant before your walk. We look forward to see you again at De Keizer!\n\nLieke | The Keizer eating & drinking\n\n",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996497631072998,
-      "topic_nr": 2.0
+      "topic_nr": 1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMtOEtiNVhREAE",
@@ -34835,7 +34835,7 @@
       "replyComment": "Hi Mary, bedankt voor het mooie compliment over onze zaak. We zien u graag terug bij De Keizer eten & drinken!\n\nLieke | De Keizer eten & drinken",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9986253976821899,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNlc3V5VzJ3RRAB",
@@ -34956,7 +34956,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994534850120544,
-      "topic_nr": 0.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURRcHF6NkRBEAE",
@@ -34978,7 +34978,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.999339759349823,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURncjd6Nnh3RRAB",
@@ -35044,7 +35044,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996365308761597,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURncXVEWW5BRRAB",
@@ -35121,7 +35121,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995269775390625,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURZZ1ozaDF3RRAB",
@@ -35396,7 +35396,7 @@
       "replyComment": "Dankjewel voor de 5 sterren Oliver! ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995926022529602,
-      "topic_nr": 5.0
+      "topic_nr": 6.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNKNGIzRWp3RRAB",
@@ -35407,7 +35407,7 @@
       "replyComment": "Das ist auf jeden Fall ein schöner Stellplatz Elke! Danke für die 5 Sterne und die Bewertung. Das macht uns glücklich! ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996206760406494,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNKX3FEaFZBEAE",
@@ -35517,7 +35517,7 @@
       "replyComment": "Vielen Dank für die 5-Sterne-Bewertung und die Komplimente über unsere sauberen Einrichtungen, Elena! Wir sind sehr glücklich darüber. ^Maud",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996368885040283,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNKbkppT2l3RRAB",
@@ -35913,7 +35913,7 @@
       "replyComment": "Wauw wat een mooie/uitgebreide review familie Den Hartog!  Wat fijn om te horen dat jullie zo genoten hebben van de activiteiten, het eten en de kampeerplaats ondanks de wisselende weersomstandigheden. Bedankt voor de aandachtspunten wat betreft de dropping, dit gaan wij zeker terugkoppelen bij ons recreatieteam! Ook nemen we je opmerking betreffende de openingstijden van de supermarkt mee. We zien jullie graag volgend jaar weer terug bij Recreatiepark TerSpegelt! ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9850073456764221,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURLaHEtLXlRRRAB",
@@ -35924,7 +35924,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9986951947212219,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURLdXByOU9REAE",
@@ -36463,7 +36463,7 @@
       "replyComment": "Vielen Dank für die Bewertung! Können Sie bitte erklären, was mit der Dusche im SterrenStrand nicht in Ordnung war? Es freut mich zu hören, dass Ihr Sohn eine tolle Zeit hatte! ^Sanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.8442548513412476,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNYMmJQVVN3EAE",
@@ -36474,7 +36474,7 @@
       "replyComment": "Bedankt voor de review Jaap. Fijn om te horen dat de kinderen een leuke tijd hebben gehad! ^Sanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995455145835876,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNubWJxaE5nEAE",
@@ -36485,7 +36485,7 @@
       "replyComment": "Thank you Liam for your 5-star review! I hope you all enjoyed our SterrenStrand! ^Sanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9995762705802917,
-      "topic_nr": 3.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNucU1tOWFnEAE",
@@ -36496,7 +36496,7 @@
       "replyComment": "Hi Oscar, bedankt voor je review! Leuk om te horen dat de kleine het zo leuk vond! ^Sanne",
       "sentiment_label": "Negative",
       "sentiment_score": 0.5041286945343018,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNuZ1BITVdBEAE",
@@ -36540,7 +36540,7 @@
       "replyComment": "Dankjewel voor de complimenten Jaap. Hopelijk zien we je snel terug! ^Sanne ",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9994326233863831,
-      "topic_nr": 4.0
+      "topic_nr": 5.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURIMExDMGV3EAE",
@@ -36562,7 +36562,7 @@
       "replyComment": "Hi Nick, wat leuk dat jullie het SterrenStrand hebben bezocht op de terugreis en fijn om te horen dat de kids zich goed vermaakt hebben. Hopelijk zien we jullie snel nog een keer terug, zodat jullie de recreatieplas ook kunnen ontdekken. ^Anna",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997147917747498,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNINlBXTTF3RRAB",
@@ -36650,7 +36650,7 @@
       "replyComment": "Hi Bart, Wat fijn om te horen dat zowel jullie, als de kinderen genoten hebben van jullie verblijf op TerSpegelt. Hopelijk tot volgend jaar! ^Xanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9968337416648865,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUM2dm9LTUl3EAE",
@@ -36705,7 +36705,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9864118099212646,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM2cXNXbHF3RRAB",
@@ -36782,7 +36782,7 @@
       "replyComment": "Hi Joyce, dankjewel voor de mooie review en de complimenten. Erg jammer om te horen dat het zwembad soms al volgeboekt was. Gelukkig is reserveren voor het zwembad sinds deze week niet meer nodig, dus mochten jullie een volgende keer naar TerSpegelt komen dan kunnen jullie hopelijk weer lekker onbeperkt zwemmen. We hopen jullie  dan ook snel weer terug te zien bij TerSpegelt, om te genieten van LekkerVakantie.  ^Xanne",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996724128723145,
-      "topic_nr": -1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNzbHJxSmV3EAE",
@@ -36793,7 +36793,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9991286396980286,
-      "topic_nr": 1.0
+      "topic_nr": -1.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM2OFBYTG5RRRAB",
@@ -36815,7 +36815,7 @@
       "replyComment": null,
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996777772903442,
-      "topic_nr": 1.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM2ME5IZHFRRRAB",
@@ -36914,7 +36914,7 @@
       "replyComment": "Hi Anja,\n\n5 sterren, heel erg bedankt voor deze mooie review! Wat fijn om te lezen dat jullie vakantie naar wens is geweest! Leuk dat jullie nog eens terug willen komen. Graag tot ziens! ^Michelle",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9997071623802185,
-      "topic_nr": 1.0
+      "topic_nr": 4.0
     },
     {
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNVd2VEUE5nEAE",
@@ -37310,7 +37310,7 @@
       "replyComment": "Wie schön zu hören, dass ihr das Klettern genossen habt! Das Wasser kann in der Nachsaison tatsächlich etwas frisch sein... Hoffentlich sehen wir euch bald wieder für ein neues Abenteuer bei Terspegelt! ^Meaux",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9965569972991943,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1UU5USjZSR3AwWm01U1MwbGFWMDVFUVVkME9XYxAB",
@@ -37332,7 +37332,7 @@
       "replyComment": "Bedankt voor je uitgebreide review en de mooie woorden Moniek! Wat fijn om te horen dat jullie zo hebben genoten van het zwembad, Bloos' bad en natuurlijk het SterrenStrand (altijd een favoriet!) Ook bedankt voor je feedback over de glijbaan en de snackkiosk; dat nemen we zeker mee om onze service nog verder te verbeteren. Hopelijk zien we jullie snel weer voor een dag vol waterpret en ontspanning bij Terspegelt! ^Meaux",
       "sentiment_label": "Positive",
       "sentiment_score": 0.9996639490127563,
-      "topic_nr": 6.0
+      "topic_nr": 3.0
     },
     {
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25CbVlYWnFha3RUTkdOdE9GSmZXakJoTFdkRFoyYxAB",
@@ -37365,7 +37365,7 @@
       "replyComment": "Vielen Dank für Ihre Bewertung, DaStMaMaJ! Es freut uns sehr, dass Ihnen der SterrenStrand gefällt! Schade, dass das Wasser so kalt war. Das sollte den Spaß natürlich nicht trüben. Wir hoffen, Sie bald wiederzusehen, am liebsten bei etwas mehr Sonne und ein paar Grad mehr im Wasser! ^Meaux",
       "sentiment_label": "Negative",
       "sentiment_score": 0.9651920795440674,
-      "topic_nr": 3.0
+      "topic_nr": 11.0
     },
     {
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xwMlFqUjNjbWhGUm1ORlJqZEpZVU5JVWxCWGFVRRAB",

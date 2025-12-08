@@ -6,32 +6,30 @@ import os
 INPUT_FILE = 'cleaned_reviews.json'
 OUTPUT_FILE = 'reviews_met_sentiment.json'
 
-# 1. Laad de schone data in een pandas DataFrame
-print("Stap 1: Data laden...")
+# 1. Load the clean data into a pandas DataFrame
+print("Step 1: Loading data...")
 if not os.path.exists(INPUT_FILE):
-    print(f"FOUT: '{INPUT_FILE}' niet gevonden. Heb je het clean-script al gedraaid?")
+    print(f"ERROR: '{INPUT_FILE}' not found. Have you run the clean script?")
     exit()
 
 try:
     with open(INPUT_FILE, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    # Zet de lijst 'reviews' om in een DataFrame
     df = pd.DataFrame.from_records(data['reviews'])
-
-    print(f"{len(df)} reviews geladen.")
+    print(f"{len(df)} reviews loaded.")
 
 except Exception as e:
-    print(f"FOUT: Kon data niet laden. {e}")
+    print(f"ERROR: Could not load data. {e}")
     exit()
 
 
-# 2. Filter op reviews die een commentaar hebben
+# 2. Filter for reviews that have a comment
 df_comments = df.dropna(subset=['comment']).copy()
-print(f"{len(df_comments)} reviews met commentaar gevonden om te analyseren.")
+print(f"{len(df_comments)} reviews with comments found for analysis.")
 
-# 3. Laad het Nederlandse Sentiment Model
-print("Stap 2: Sentiment-model laden (kan even duren)...")
+# 3. Load the Dutch Sentiment Model
+print("Step 2: Loading sentiment model (this may take a while)...")
 model_name = "DTAI-KULeuven/robbert-v2-dutch-sentiment"
 sentiment_pipeline = pipeline(
     "sentiment-analysis", 
@@ -39,38 +37,36 @@ sentiment_pipeline = pipeline(
     tokenizer=model_name
 )
 
-# 4. Voer de sentiment-analyse uit
-print("Stap 3: Sentiment aan het analyseren...")
+# 4. Perform sentiment analysis
+print("Step 3: Analyzing sentiment...")
 comments_list = df_comments['comment'].tolist()
 
-# FIX: 'truncation=True' voorkomt errors bij te lange reviews
+# 'truncation=True' prevents errors with very long reviews
 sentiments = sentiment_pipeline(comments_list, truncation=True, max_length=512)
 
 df_comments['sentiment_label'] = [s['label'] for s in sentiments]
 df_comments['sentiment_score'] = [s['score'] for s in sentiments]
 
-print("Analyse voltooid.")
-# NIEUWE STAP 4.5: Model Validatie - Print een steekproef
+# 4.5 Validation Step
+print("\n--- Sentiment Validation Sample (5 random) ---")
+try:
+    validation_sample = df_comments.sample(n=5, random_state=42)
+    for index, row in validation_sample.iterrows():
+        print(f"Review: {str(row['comment'])[:100]}...")
+        print(f" -> Label: {row['sentiment_label']} (Score: {row['sentiment_score']:.4f})")
+except ValueError:
+    print("Not enough data for validation sample.")
 
-print("\n--- Sentiment Validatie Steekproef (5 willekeurige resultaten) ---")
-# Filter de geanalyseerde reviews en selecteer 5 willekeurige rijen
-validation_sample = df_comments.sample(n=5, random_state=42) # Gebruik random_state voor reproduceerbaarheid
+print("Analysis completed.")
 
-for index, row in validation_sample.iterrows():
-    print(f"\nReview: {row['comment'][:150]}...") # Maximaal 150 tekens
-    print(f" -> Label: {row['sentiment_label']}")
-    print(f" -> Score: {row['sentiment_score']:.4f}")
-
-# (De rest van het script gaat verder met opslaan...)
-
-# 5. Voeg de sentiment-data samen met de originele data
+# 5. Merge sentiment data with original data
 df = df.join(df_comments[['sentiment_label', 'sentiment_score']])
 
-# 6. Sla het verrijkte bestand op
-print(f"Stap 4: Resultaten opslaan naar '{OUTPUT_FILE}'...")
+# 6. Save the enriched file
+print(f"Step 4: Saving results to '{OUTPUT_FILE}'...")
 output_data = {"reviews": df.to_dict('records')}
 
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
     json.dump(output_data, f, indent=2, ensure_ascii=False)
 
-print(f"Klaar! '{OUTPUT_FILE}' is succesvol aangemaakt.")
+print(f"Done! '{OUTPUT_FILE}' has been successfully created.")

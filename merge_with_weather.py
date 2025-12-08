@@ -3,71 +3,91 @@ import json
 import os
 import numpy as np
 
-# Bestandsnamen
+# File names
 INPUT_REVIEWS = 'reviews_met_topics.json'
 INPUT_WEATHER = 'weather_data.csv'
-OUTPUT_FILE = 'final_data_for_powerbi.json' # Het definitieve bestand!
+OUTPUT_FILE = 'final_data_for_powerbi.json'
 
 def merge_data():
-    print("Starten met data-integratie met weerdata...")
+    print("Starting integration with weather data...")
 
-    # 1. Laad de reviews
+    # 1. Load reviews
     if not os.path.exists(INPUT_REVIEWS):
-        print(f"FOUT: '{INPUT_REVIEWS}' niet gevonden.")
+        print(f"ERROR: '{INPUT_REVIEWS}' not found.")
         return
         
     with open(INPUT_REVIEWS, 'r', encoding='utf-8') as f:
         data = json.load(f)
     df_reviews = pd.DataFrame.from_records(data['reviews'])
-    print(f"{len(df_reviews)} reviews geladen.")
+    print(f"{len(df_reviews)} reviews loaded.")
 
-    # 2. Laad de weerdata
+    # 2. Load weather data
     if not os.path.exists(INPUT_WEATHER):
-        print(f"FOUT: '{INPUT_WEATHER}' niet gevonden.")
+        print(f"ERROR: '{INPUT_WEATHER}' not found.")
         return
         
     df_weather = pd.read_csv(INPUT_WEATHER)
-    print(f"{len(df_weather)} dagen weerdata geladen.")
-
-
-    # 3. Opschonen en klaarmaken voor merge
+    print(f"{len(df_weather)} days of weather data loaded.")
     
-    # Haal de datum uit de 'createTime' timestamp van de reviews
-    # De tijdstempel is in formaat YYYY-MM-DDTHH:MM:SSZ
-    df_reviews['datum'] = df_reviews['createTime'].str[:10] # pakt de eerste 10 karakters (YYYY-MM-DD)
-    
-    # We verwachten dat de weerdata een kolom 'Date' heeft (of pas dit hier aan)
-    df_weather = df_weather.rename(columns={'Date': 'datum'})
+    # DEBUG: Show found columns
+    print(f"Weather columns found: {list(df_weather.columns)}")
 
-    # Zorg dat de datum-kolommen hetzelfde datatype hebben (string)
+    # 3. Clean and prepare for merge
+    # Extract date from 'createTime' (YYYY-MM-DD)
+    df_reviews['datum'] = df_reviews['createTime'].str[:10]
+    
+    # FIX 1: Check specifically for lowercase 'date' and rename to 'datum'
+    if 'date' in df_weather.columns:
+        df_weather = df_weather.rename(columns={'date': 'datum'})
+    elif 'Date' in df_weather.columns:
+        df_weather = df_weather.rename(columns={'Date': 'datum'})
+        
+    # Check if rename was successful
+    if 'datum' not in df_weather.columns:
+        print("ERROR: Could not find 'date' column in weather CSV.")
+        return
+
+    # Ensure date columns are strings for matching
     df_weather['datum'] = df_weather['datum'].astype(str)
 
-    # 4. Merge de twee datasets op 'datum'
-    # 'left' merge zorgt ervoor dat alle reviews behouden blijven
-    print("Data aan het mergen op datum...")
+    # 4. Merge on date
+    print("Merging data based on date...")
+    
+    # FIX 2: Use the exact column names from your CSV file
+    # We want: 'datum' + max temp + precipitation
+    weather_cols_to_keep = ['datum']
+    
+    if 'temp_max_c' in df_weather.columns:
+        weather_cols_to_keep.append('temp_max_c')
+    if 'precip_amount_mm' in df_weather.columns:
+        weather_cols_to_keep.append('precip_amount_mm')
+    if 'temp_avg_c' in df_weather.columns:
+        weather_cols_to_keep.append('temp_avg_c')
+
+    # Merge!
     df_final = pd.merge(
         df_reviews, 
-        df_weather[['datum', 'TMAX', 'PRCP', 'SNOW']], # Selecteer alleen relevante weer-kolommen
+        df_weather[weather_cols_to_keep], 
         on='datum', 
         how='left'
     )
     
-    # Verwijder de tijdelijke 'datum' kolom
+    # Remove temporary date column used for merging
     df_final = df_final.drop(columns=['datum'])
     
-    print(f"Definitief DataFrame klaar met {len(df_final.columns)} kolommen.")
+    print(f"Final DataFrame ready with {len(df_final.columns)} columns.")
 
-    # 5. Opslaan van het definitieve bestand (met NaN -> null conversie voor Power BI)
-    print(f"Opslaan naar '{OUTPUT_FILE}'...")
+    # 5. Save final file
+    print(f"Saving to '{OUTPUT_FILE}'...")
     
-    # Converteer NaN naar None/null, wat essentieel is voor Power BI's JSON-import
+    # Convert NaN to None (null) for Power BI compatibility
     df_final_for_json = df_final.replace({np.nan: None})
     output_data = {"reviews": df_final_for_json.to_dict('records')}
     
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
 
-    print(f"\nKlaar! '{OUTPUT_FILE}' is het definitieve, complete bestand voor Power BI.")
+    print(f"\nDone! '{OUTPUT_FILE}' is the final file for Power BI.")
 
 if __name__ == "__main__":
     merge_data()
