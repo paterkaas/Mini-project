@@ -2,6 +2,7 @@ import json
 import pandas as pd
 from bertopic import BERTopic
 from sentence_transformers import SentenceTransformer
+from sklearn.feature_extraction.text import CountVectorizer # Nieuw: Nodig voor de filter
 import os
 import numpy as np
 
@@ -38,12 +39,27 @@ def analyze_topics():
         print("No comments found to analyze. Script stopping.")
         df['topic_nr'] = np.nan 
     else:
-        # --- 3. Setup Topic Model ---
+        # --- 3. Setup Topic Model with Stop Words ---
         print("Step 2: Loading models for topic modeling...")
+        
+        # A. Define the words we want to IGNORE (The "Stop Words")
+        # These words often appear in translated reviews but have no meaning
+        my_stop_words = [
+            "google", "translated", "by", "original", "review", 
+            "de", "het", "een", "is", "en", "van", "te", "dat", "die", # Dutch filler words
+            "the", "and", "to", "of", "a", "in", "is", "for" # English filler words
+        ]
+        
+        # B. Create a vectorizer that uses this list
+        vectorizer_model = CountVectorizer(stop_words=my_stop_words)
+
+        # C. Load the sentence transformer (the "brain")
         sentence_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 
+        # D. Create BERTopic with our custom filters
         topic_model = BERTopic(
             embedding_model=sentence_model,
+            vectorizer_model=vectorizer_model, # Use our filter here!
             language="multilingual",
             nr_topics="auto",
             verbose=True
@@ -58,7 +74,8 @@ def analyze_topics():
         # --- 5. View found topics ---
         print("\n--- Found Topics (Top 5 words per topic) ---")
         top_topics = topic_model.get_topic_info()
-        print(top_topics[top_topics.Topic != -1].head(10))
+        # Print columns explicitly to avoid confusion
+        print(top_topics[['Topic', 'Count', 'Name']].head(10))
         print("--------------------------------------------------\n")
         
         # --- 5.1 Validation: Save visualization ---
