@@ -50,6 +50,18 @@ df_comments['sentiment_label'] = [s['label'] for s in sentiments]
 df_comments['sentiment_score'] = [s['score'] for s in sentiments]
 
 print("Analyse voltooid.")
+# NIEUWE STAP 4.5: Model Validatie - Print een steekproef
+
+print("\n--- Sentiment Validatie Steekproef (5 willekeurige resultaten) ---")
+# Filter de geanalyseerde reviews en selecteer 5 willekeurige rijen
+validation_sample = df_comments.sample(n=5, random_state=42) # Gebruik random_state voor reproduceerbaarheid
+
+for index, row in validation_sample.iterrows():
+    print(f"\nReview: {row['comment'][:150]}...") # Maximaal 150 tekens
+    print(f" -> Label: {row['sentiment_label']}")
+    print(f" -> Score: {row['sentiment_score']:.4f}")
+
+# (De rest van het script gaat verder met opslaan...)
 
 # 5. Voeg de sentiment-data samen met de originele data
 df = df.join(df_comments[['sentiment_label', 'sentiment_score']])
