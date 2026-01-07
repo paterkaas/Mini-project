@@ -25,7 +25,7 @@ def split_reviews_to_sentences(df):
                     'reviewId': row.get('reviewId'),
                     'zin_tekst': zin,
                     'originele_rating': row.get('rating'),
-                    'date': row.get('date'),
+                    'createTime': row.get('createTime'),
                     'reviewerName': row.get('reviewerName')
                 })
     return pd.DataFrame(zinnen_data)
@@ -53,7 +53,13 @@ def analyze_sentiment():
 
     print("Stap 3: Sentiment per zin analyseren...")
     zinnen_lijst = df_zinnen['zin_tekst'].tolist()
-    sentiments = sentiment_pipeline(zinnen_lijst, truncation=True, max_length=512)
+    
+    # We analyseren de zinnen nu één voor één in een loop met een voortgangsbalk
+    from tqdm import tqdm
+    sentiments = []
+    for zin in tqdm(zinnen_lijst, desc="Analyseren"):
+        res = sentiment_pipeline(zin, truncation=True, max_length=512)
+        sentiments.append(res[0])
 
     df_zinnen['sentiment_label'] = [s['label'] for s in sentiments]
     df_zinnen['sentiment_score'] = [s['score'] for s in sentiments]
