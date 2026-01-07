@@ -1,111 +1,112 @@
 import json
 import pandas as pd
 from bertopic import BERTopic
-from sentence_transformers import SentenceTransformer
-from sklearn.feature_extraction.text import CountVectorizer # Nieuw: Nodig voor de filter
+from sklearn.feature_extraction.text import CountVectorizer
 import os
 import numpy as np
 
+# Bestandsnamen
 INPUT_FILE = 'reviews_met_sentiment.json'
 OUTPUT_FILE = 'reviews_met_topics.json'
 
 def analyze_topics():
     """
-    Reads the file with sentiment, adds topics, and saves
-    a Power BI-compatible JSON file.
+    Voert hiërarchische topic modeling uit op zinsniveau voor diepere inzichten.
     """
 
-    # --- 1. Load data with sentiment ---
-    print("Step 1: Loading data with sentiment...")
+    # --- 1. Data laden (zinnen gegenereerd door analyse_sentiment.py) ---
+    print("Stap 1: Sentiment-zinnen laden...")
     if not os.path.exists(INPUT_FILE):
-        print(f"ERROR: '{INPUT_FILE}' not found. Have you run 'analyse_sentiment.py'?")
+        print(f"ERROR: '{INPUT_FILE}' niet gevonden. Run eerst 'analyse_sentiment.py'.")
         return
         
     try:
         with open(INPUT_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        df = pd.DataFrame.from_records(data['reviews'])
-        print(f"{len(df)} reviews loaded.")
+        
+        # We gebruiken 'zinnen' omdat het sentiment-script nu op zinsniveau opslaat
+        df_zinnen = pd.DataFrame(data['zinnen'])
+        print(f"{len(df_zinnen)} zinnen geladen voor analyse.")
     except Exception as e:
-        print(f"ERROR: Could not load data. {e}")
+        print(f"ERROR: Kon data niet laden. {e}")
         return
 
-    # --- 2. Filter for reviews with comments ---
-    df_comments = df.dropna(subset=['comment']).copy()
-    comments_list = df_comments['comment'].tolist()
-    print(f"{len(comments_list)} comments found for clustering.")
+    # Pak de tekst van de zinnen voor de clustering
+    zinnen_lijst = df_zinnen['zin_tekst'].astype(str).tolist()
 
-    if len(comments_list) == 0:
-        print("No comments found to analyze. Script stopping.")
-        df['topic_nr'] = np.nan 
-    else:
-        # --- 3. Setup Topic Model with Stop Words ---
-        print("Step 2: Loading models for topic modeling...")
-        
-        # A. Define the words we want to IGNORE (The "Stop Words")
-        # These words often appear in translated reviews but have no meaning
-        my_stop_words = [
-            "google", "translated", "by", "original", "review", 
-            "de", "het", "een", "is", "en", "van", "te", "dat", "die", # Dutch filler words
-            "the", "and", "to", "of", "a", "in", "is", "for" # English filler words
-        ]
-        
-        # B. Create a vectorizer that uses this list
-        vectorizer_model = CountVectorizer(stop_words=my_stop_words)
+    if len(zinnen_lijst) == 0:
+        print("Geen tekst gevonden om te analyseren.")
+        return
 
-        # C. Load the sentence transformer (the "brain")
-        sentence_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-
-        # D. Create BERTopic with our custom filters
-        topic_model = BERTopic(
-            embedding_model=sentence_model,
-            vectorizer_model=vectorizer_model, # Use our filter here!
-            language="multilingual",
-            nr_topics="auto",
-            verbose=True
-        )
-
-        # --- 4. Train model and assign topics ---
-        print("Step 3: Training topics and assigning... (This may take a while)")
-        topics, probabilities = topic_model.fit_transform(comments_list)
-
-        df_comments['topic_nr'] = topics
-
-        # --- 5. View found topics ---
-        print("\n--- Found Topics (Top 5 words per topic) ---")
-        top_topics = topic_model.get_topic_info()
-        # Print columns explicitly to avoid confusion
-        print(top_topics[['Topic', 'Count', 'Name']].head(10))
-        print("--------------------------------------------------\n")
-        
-        # --- 5.1 Validation: Save visualization ---
-        print("Generating visualization...")
-        try:
-            fig = topic_model.visualize_topics()
-            fig.write_html("bertopic_visualization.html")
-            print("Visualization saved to 'bertopic_visualization.html'.")
-        except Exception as e:
-            print(f"Warning: Could not save visualization: {e}")
-
-        # --- 6. Merge topic data ---
-        df = df.join(df_comments[['topic_nr']])
-
-    # --- 7. Save final file ---
-    print(f"Step 4: Saving final file to '{OUTPUT_FILE}'...")
-
-    # Convert NaN to None (null) for JSON compatibility
-    df_for_json = df.replace({np.nan: None})
-
-    output_data = {"reviews": df_for_json.to_dict('records')}
+    # --- 2. BERTopic model configureren ---
+    print("Stap 2: BERTopic model configureren...")
     
+    # Uitgebreide stopwoorden om ruis in de topics te verminderen
+    dutch_stop_words = [
+        "de", "het", "een", "is", "en", "van", "te", "dat", "die", "op", "met", 
+        "voor", "niet", "ook", "om", "als", "dan", "met", "google", "translated", 
+        "by", "original", "review"
+    ]
+    
+    vectorizer_model = CountVectorizer(stop_words=dutch_stop_words)
+
+    # We gebruiken language="multilingual". BERTopic laadt intern de juiste 
+    # sentence-transformers zonder dat we handmatige imports nodig hebben.
+    topic_model = BERTopic(
+        language="multilingual",
+        vectorizer_model=vectorizer_model,
+        nr_topics="auto", # Zoekt zelf naar een optimaal aantal hoofd-topics
+        verbose=True
+    )
+
+    # --- 3. Topics trainen op zinsniveau ---
+    print("Stap 3: Topics trainen en toewijzen... (Dit kan even duren)")
+    topics, probs = topic_model.fit_transform(zinnen_lijst)
+    df_zinnen['topic_nr'] = topics
+
+    # --- 4. Hiërarchische analyse voor sub-topics ---
+    print("Stap 4: Sub-topic hiërarchie berekenen...")
+    try:
+        hierarchical_topics = topic_model.hierarchical_topics(zinnen_lijst)
+        
+        # Visualisaties opslaan voor de gebruiker
+        print("Visualisaties genereren...")
+        topic_model.visualize_topics().write_html("topic_overview.html")
+        topic_model.visualize_hierarchy(hierarchical_topics=hierarchical_topics).write_html("topic_hierarchy.html")
+        print("Visualisaties opgeslagen als 'topic_overview.html' en 'topic_hierarchy.html'.")
+    except Exception as e:
+        print(f"Waarschuwing: Kon hiërarchie niet berekenen/opslaan: {e}")
+
+    # --- 5. Topic namen toevoegen aan de dataframe ---
+    # Haal de tekstuele namen van de topics op (bijv. "0_zwembad_water_lekker")
+    topic_info = topic_model.get_topic_info()
+    df_final = df_zinnen.merge(
+        topic_info[['Topic', 'Name']], 
+        left_on='topic_nr', 
+        right_on='Topic', 
+        how='left'
+    ).drop(columns=['Topic']) # Dubbele kolom verwijderen
+
+    # --- 6. Resultaten opslaan ---
+    print(f"Stap 5: Resultaten opslaan naar '{OUTPUT_FILE}'...")
+    
+    # NaN vervangen door None voor JSON validiteit
+    df_final = df_final.replace({np.nan: None})
+    
+    output_data = {
+        "metadata": {
+            "total_sentences": len(df_final),
+            "topic_count": len(topic_info)
+        },
+        "zinnen": df_final.to_dict('records')
+    }
+
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=2, ensure_ascii=False)
-
-        print(f"\nAll analyses completed! '{OUTPUT_FILE}' created successfully.")
-
+        print(f"\nTopic analyse voltooid! '{OUTPUT_FILE}' is aangemaakt.")
     except Exception as e:
-        print(f"\nERROR writing JSON: {e}")
+        print(f"ERROR bij schrijven JSON: {e}")
 
 if __name__ == "__main__":
     analyze_topics()
