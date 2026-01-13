@@ -55,7 +55,7 @@ def analyze_topics():
     topic_model = BERTopic(
         language="multilingual",
         vectorizer_model=vectorizer_model,
-        nr_topics="auto", # Zoekt zelf naar een optimaal aantal hoofd-topics
+        nr_topics="20", # Zoekt zelf naar een optimaal aantal hoofd-topics
         verbose=True
     )
 
