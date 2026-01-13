@@ -41,7 +41,6 @@ def analyze_topics():
     # --- 2. BERTopic model configureren ---
     print("Stap 2: BERTopic model configureren...")
     
-    # Uitgebreide stopwoorden om ruis in de topics te verminderen
     dutch_stop_words = [
         "de", "het", "een", "is", "en", "van", "te", "dat", "die", "op", "met", 
         "voor", "niet", "ook", "om", "als", "dan", "met", "google", "translated", 
